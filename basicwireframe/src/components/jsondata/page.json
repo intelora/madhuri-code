@@ -1,0 +1,16 @@
+[
+    {
+      
+      "id": 1,
+      "company" : "IORD",
+      "service":"good"
+     
+    },
+    {
+     
+      "id": 2,
+      "company" : "OLA",
+      "service":"Bad"
+     
+    }
+]
