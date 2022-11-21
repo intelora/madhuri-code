@@ -1,0 +1,925 @@
+@media (max-width: 480px) {
+  .custom-nav-btn {
+    background-color: var(--primary);
+    color: var(--text-dark) !important;
+    padding: 10px 22px;
+    /* margin-left: 27px; */
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+    font-family: Ubuntu;
+  }
+
+  .footer-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .plus-sign {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+  }
+
+  .home-center {
+    width: 100%;
+    background: url(../images/main.png);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+  }
+
+  .top-padding {
+    padding-top: 0px;
+  }
+
+  .bottom-padding {
+    padding-bottom: 0px !important;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 164px !important;
+    left: 129px !important;
+  }
+
+  .preview-top p {
+    font-size: 10px;
+    font-family: open-sans;
+    display: none;
+  }
+
+  .join-btn {
+    margin-top: 50px;
+  }
+
+  .exclusive {
+    position: absolute;
+    width: 90px !important;
+    top: 18px;
+    right: 40px;
+    z-index: 1000;
+  }
+
+  .only {
+    position: absolute;
+    width: 82px !important;
+    right: 7px !important;
+    top: 63px !important;
+  }
+
+  .main-counter {
+    max-width: 696px;
+    width: 100%;
+    padding: 45px 0px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+  }
+
+  .email-input {
+    width: 100%;
+    font-size: 26px;
+    background: none;
+    font-family: Ubuntu;
+    color: white;
+    padding: 4px 16px;
+  }
+
+  .info-target {
+    z-index: 4;
+    padding: 10px !important;
+  }
+
+  .main-box,
+  .main-box-lg {
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+  .info-price-value-img {
+    width: 155px !important;
+  }
+
+  .custom-btn {
+    width: 100%;
+  }
+
+  .title h2 {
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+
+  .title h1 {
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  .top-back {
+    position: absolute;
+    top: -132px;
+    left: -277px;
+  }
+
+
+  .middle-back {
+    position: absolute;
+    width: 561px;
+    top: -133px;
+    left: -51px;
+  }
+
+  .bottom-back {
+    position: absolute;
+    width: 561px;
+    top: -133px;
+    left: -51px;
+  }
+
+  /* .preview-play {
+    bottom: 30px;
+    width: 224px;
+    position: absolute;
+    left: 94px !important;
+    border-radius: 12px;
+  } */
+}
+
+@media (max-width: 767px) {
+  .custom-nav-btn {
+    background-color: var(--primary);
+    color: var(--text-dark) !important;
+    padding: 10px 22px;
+    /* margin-left: 27px; */
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+    font-family: Ubuntu;
+  }
+
+  
+  .plus-sign {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 198px;
+    left: 124px;
+  }
+
+  .profile-banner {
+    width: 100%;
+    background: url(../images/royalty-banner.svg);
+    background-size: cover;
+    height: 78px;
+    background-position: center;
+  }
+
+  .main-counter {
+    max-width: 696px;
+    width: 100%;
+    padding: 45px 0px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+  }
+
+  .email-input {
+    width: 100%;
+    font-size: 16px;
+    background: none;
+    font-family: Ubuntu;
+    color: white;
+    padding: 4px 16px;
+  }
+  
+  .title h1 {
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  .info-price-value-img {
+    width: 225px;
+  }
+
+
+  .band {
+    width: 700px !important;
+    margin-bottom: 100px;
+  }
+
+  .profile-band {
+    width: 700px !important;
+    margin-top: 50px;
+  }
+
+  .title h2 {
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+
+  .howwork {
+    padding: 0px;
+  }
+
+  .logo {
+
+    width: 200px;
+
+  }
+
+  .how1 {
+    padding-bottom: 1px;
+  }
+
+  .how2 {
+    padding-bottom: 1px;
+  }
+
+  .how3 {
+    padding-bottom: 1px;
+  }
+
+  .heythere {
+    display: none;
+  }
+
+
+
+
+  .nav-item {
+
+    padding: 10px 0;
+
+  }
+
+  .navbar-nav {
+
+    align-items: unset !important;
+
+  }
+
+  .nav-custom {
+
+    padding: 0;
+    height: auto;
+
+  }
+
+  .stick-icon,
+  .stick-icon-right {
+
+    display: none;
+
+  }
+
+  .order-xs-2 {
+
+    order: 2;
+
+  }
+
+
+  .order-xs-1 {
+
+    order: 1;
+
+  }
+
+
+  .section-padding {
+    padding: 3rem 0;
+
+  }
+
+  .main-section {
+
+    padding: 50px 0;
+
+  }
+
+  .section-img,
+  .main-img img {
+
+    width: 200px;
+
+  }
+
+  .main-title p {
+
+    font-size: 10px;
+
+  }
+
+
+
+
+  .custom-tp,
+  .custom-btn {
+    padding: 10px 12px;
+  }
+
+  .social-btn img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  .stars {
+
+    display: none;
+
+  }
+
+  .info-box-details h3 {
+
+    font-size: 30px;
+  }
+
+  .lg-title {
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+
+  .img-grp img {
+    width: 135px;
+  }
+
+
+  .subscribe input::placeholder {
+
+
+    font-size: 12px;
+  }
+
+
+  .submit-ab {
+
+    width: 35%;
+
+    padding: 14px 10px;
+    font-size: 12px;
+
+  }
+
+
+  .social-btn ul li {
+
+    margin-bottom: 10px;
+
+  }
+
+  .footer-bottom-child {
+
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+
+  .roadmap-sm-hide {
+
+    display: none;
+
+  }
+
+  .team {
+
+    margin-bottom: 50px;
+
+  }
+
+  .roadmap-meta .roadmap-center,
+  .roadmap-meta .roadmap-data {
+
+    width: auto;
+
+  }
+
+  .roadmap-box {
+
+    background-position: 100% 100%;
+    background-size: 40%;
+    -webkit-clip-path: polygon(88% 0, 100% 9%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(88% 0, 100% 9%, 100% 100%, 0 100%, 0 0);
+  }
+
+
+  .top-back {
+    position: absolute;
+    width: 1072px !important;
+    top: -132px;
+    left: -277px;
+  }
+
+  .middle-back {
+    position: absolute;
+    width: 1043px;
+    top: -260px;
+    left: -138px;
+  }
+
+  .bottom-back {
+    position: absolute;
+    width: 1442px;
+    top: 109px;
+    left: -282px;
+  }
+
+  .preview {
+    padding-top: 80px;
+  }
+
+  .preview p {
+    font-family: Ubuntu;
+  }
+
+  .preview h2 {
+    font-family: orbitron-small;
+    font-size: 20px;
+  }
+
+  /* .preview-play {
+    bottom: 30px;
+    width: 224px;
+    position: absolute;
+    left: 195px;
+    border-radius: 12px;
+  } */
+
+
+  .only {
+    position: absolute;
+    width: 65px;
+    right: 7px;
+    top: 84px;
+
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .roadmap-list {
+    display: none;
+  }
+
+  .custom-nav-btn {
+    background-color: var(--primary);
+    color: var(--text-dark) !important;
+    padding: 11px 22px;
+    margin-left: 27px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+    font-family: Ubuntu;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 204px;
+    left: 127px;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+  .top-back {
+    position: absolute;
+    width: 878px !important;
+    top: -99px;
+    left: -136px;
+  }
+
+  .info-price-value-img {
+    width: 295px;
+  }
+
+  .how-padding {
+    padding: 20px !important;
+  }
+
+  .title h1 {
+    font-size: 62px;
+    line-height: 55px;
+  }
+
+  .heythere {
+    display: none;
+  }
+
+  .title h2 {
+    font-size: 30px;
+  }
+
+  .order-xs-2 {
+
+    order: 2;
+
+  }
+
+
+  .order-xs-1 {
+
+    order: 1;
+
+  }
+
+  .stick-icon,
+  .stick-icon-right {
+
+    opacity: 0.5;
+    top: 0;
+  }
+
+  .main-section {
+
+    padding: 50px 0;
+
+  }
+
+
+  .stars img:nth-child(1) {
+
+    position: absolute;
+    right: 30px;
+
+  }
+
+
+  .stars img:nth-child(2) {
+
+
+    right: 0;
+
+  }
+
+  .team {
+
+    margin-bottom: 50px;
+
+  }
+
+  .middle-back {
+    position: absolute;
+    width: 1350px;
+    top: -322px;
+    left: -138px;
+  }
+
+  .bottom-back {
+    position: absolute;
+    width: 1350px;
+    top: -322px;
+    left: -138px;
+  }
+
+  .preview {
+    padding-top: 80px;
+    padding-left: 50px;
+  }
+
+  /* .preview-play {
+    bottom: 30px;
+    width: 224px;
+    position: absolute;
+    left: 316px;
+    border-radius: 12px;
+  } */
+
+  .only {
+    position: absolute;
+    width: 163px;
+    right: 22px;
+    top: 71px;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 206px;
+    left: 239px;
+  }
+
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+  .top-back {
+    position: absolute;
+    width: 1190px !important;
+    top: -191px;
+    left: -170px;
+  }
+
+  .pl-10 {
+    padding-left: 46px;
+  }
+
+  .title h1 {
+    font-size: 69px;
+    line-height: 63px;
+  }
+
+  .title h2 {
+    font-size: 30px;
+  }
+
+  .logo {
+
+    width: 200px;
+
+  }
+
+  .nav-item {
+
+    padding: 0 10px;
+
+  }
+
+
+  .custom-tp,
+  .custom-btn {
+
+    font-size: 19px;
+    padding: 10px 12px;
+    /* margin-right: 10px !important; */
+
+  }
+
+
+  .info-box-details h3 {
+
+    font-size: 30px;
+  }
+
+
+  .social-btn ul li {
+
+    margin-bottom: 10px;
+
+  }
+
+
+  .subscribe input::placeholder {
+
+
+    font-size: 15px;
+  }
+
+
+  .submit-ab {
+
+    width: 35%;
+    padding: 14px 10px;
+    font-size: 15px;
+
+  }
+
+  .footer-menu li {
+
+    font-size: 12px;
+
+  }
+
+  .lg-title {
+
+    font-size: 40px;
+
+  }
+
+  .social-btn img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .team {
+
+    margin-bottom: 50px;
+
+  }
+
+  .how-padding {
+    padding: 15px !important;
+  }
+
+  .middle-back {
+    position: absolute;
+    width: 1362px;
+    top: -247px;
+    left: -138px;
+  }
+
+  .bottom-back {
+    position: absolute;
+    width: 1403px;
+    top: 50px;
+    left: -138px;
+  }
+
+  .preview {
+    padding-top: 85px;
+    padding-left: 50px;
+  }
+
+  /* .preview-play {
+    bottom: 30px;
+    width: 305px;
+    position: absolute;
+    left: 496px;
+    border-radius: 12px;
+  } */
+
+  .info-price-value-img {
+    width: 175px;
+  }
+
+  .only {
+    position: absolute;
+    width: 95px;
+    right: 14px;
+    top: 82px;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 161px;
+    left: 121px;
+  }
+
+  .preview-top p {
+    font-size: 10px;
+    font-family: open-sans;
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+
+  .top-back {
+    position: absolute;
+    width: 1327px;
+    top: -204px;
+    left: -171px;
+  }
+
+  .social-btn ul li {
+
+    margin-bottom: 10px;
+
+  }
+
+  .how-padding {
+    padding: 15px !important;
+  }
+
+  .title h1 {
+    font-size: 79px;
+  }
+
+  .title h2 {
+    font-size: 35px;
+  }
+
+  .pl-10 {
+    padding-left: 46px;
+  }
+
+  .faq-container {
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+  }
+
+  .middle-back {
+    position: absolute;
+    width: 1719px !important;
+    top: -385px;
+    left: -138px;
+  }
+
+  .bottom-back {
+    position: absolute;
+    width: 1717px !important;
+    top: -39px;
+    left: -138px;
+  }
+
+  .preview {
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+
+  /* .preview-play {
+    bottom: 30px;
+    width: 300px;
+    position: absolute;
+    left: 496px;
+    border-radius: 12px;
+  } */
+
+  .info-price-value-img {
+    width: 240px;
+  }
+
+  .only {
+    position: absolute;
+    width: 120px;
+    right: 14px;
+    top: 79px;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 200px;
+    left: 118px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .top-back {
+    position: absolute;
+    width: 1399px !important;
+    top: -242px;
+    left: 150px;
+  }
+
+  .pl-10 {
+    padding-left: 46px;
+  }
+
+  .how-padding {
+    padding: 40px !important;
+  }
+
+  .faq-container {
+    padding-left: 220px !important;
+    padding-right: 220px !important;
+  }
+
+  .middle-back {
+    position: absolute;
+    width: 2039px !important;
+    top: -542px;
+    left: 101px;
+  }
+
+  .bottom-back {
+    position: absolute;
+    width: 1952px !important;
+    top: -240px;
+    left: 100px;
+  }
+
+  .preview-top {
+    position: absolute;
+    top: 210px;
+    left: 155px;
+  }
+
+  .preview {
+    padding-top: 110px;
+    padding-left: 150px;
+  }
+
+  /* .preview-play {
+    bottom: 30px;
+    width: 311px;
+    position: absolute;
+    left: 583px;
+    border-radius: 12px;
+  } */
+
+  .info-price-value-img {
+    width: 245px;
+  }
+
+}

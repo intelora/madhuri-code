@@ -1,0 +1,38 @@
+/* .main {
+  background: url(/public/images/background.png) !important;
+  background-position: center;
+  background-size: cover;
+} */
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./assets/font/Ubuntu/Ubuntu-Regular.ttf');
+}
+@font-face {
+  font-family: 'orbitron';
+  src: url('./assets/font/orbitron/orbitron-medium.otf');
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./assets/font/orbitron/Orbitron\ Bold.ttf');
+}
+
+@font-face {
+  font-family: 'orbitron-small';
+  src: url('./assets/font/orbitron/orbitron-light.ttf');
+}
+
+@font-face {
+  font-family: 'ag';
+  src: url('./assets/font/ag/akzidenz-grotesk\(r\)schulbuchmedium.ttf');
+}
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('./assets/font/open-sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'monster';
+  src: url('./assets/font/montserrat/static/Montserrat-Bold.ttf');
+}

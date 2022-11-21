@@ -119,11 +119,12 @@ if(enteredNameIsValid && enteredEmailIsValid && enteredContactIsValid && entered
 
 const submitHandler=(event)=>{
   event.preventDefault();
+  console.log(event.target.value);
   
   if(!enteredNameIsValid){
     return;
   } else{
-    axios.post('http://localhost:3000/api/post',{
+     axios.post('http://localhost:3000/form',{
      name:enteredName,
      email:enteredEmail,
      contact:enteredContact,
@@ -182,9 +183,24 @@ const submitHandler=(event)=>{
 
 
   return (
-    <form onSubmit={submitHandler}>
+    <form>
       
-      <div className='control-group'>
+      
+    
+          
+      <div className="form-actionss">
+         <div>
+         <input 
+         type='text'
+         id='text'
+         />
+      <button>button</button>
+      
+      
+      </div>
+       </div>
+         
+       <div className='control-group'>
         <div className={nameInputclasses}>
         <label htmlFor='name'>Name</label>
         <input 
@@ -341,7 +357,8 @@ const submitHandler=(event)=>{
         <input 
          type='number'
          id='number'
-         onChange={currentSalaryChangeHandler} 
+         //onSubmit={submitHandler}
+         onChange={submitHandler} 
          onBlur={inputCurrentSalaryBlurHandler}
          value={enteredCurrentSalary}
         />
@@ -350,10 +367,10 @@ const submitHandler=(event)=>{
 {currentSalaryInputHasError && <p className="error-text">Current Salary must not be empty</p>}
 
       
-      <div className="form-actions">
-        <button disabled={!formIsValid}>Submit</button>
+      {/* <div className="form-actions">
+        <button disabled={!formIsValid}>button</button>
       </div> 
-      
+       */}
     </form>
   );
 };

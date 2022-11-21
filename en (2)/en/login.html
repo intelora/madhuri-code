@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IntelOra Resources & Developments - Login</title>
+	<link rel="canonical" href="https://intelora.co.in/en/login.html" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+    <meta name="google-site-verification" content="fN-Gbm1bvKWCRTePasdmIEzkULCScpcyBwYpog86NIo" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "IntelOra Resources & Developments",
+  "url": "https://intelora.co.in/en/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "IntelOra Resources & Developments",
+  "alternateName": "IntelOra",
+  "url": "https://intelora.co.in/en/",
+  "logo": "https://intelora.co.in/en/images/LogoBanner.png",
+  "sameAs": [
+    "https://www.facebook.com/director.intelora",
+    "https://twitter.com/Intelora1",
+    "https://www.instagram.com/intelora.r.d",
+    "https://www.linkedin.com/company/intelora",
+    "https://intelora.tumblr.com",
+    "https://intelora.co.in/en/",
+    "https://in.pinterest.com/intelorar"
+  ]
+}
+</script>
+	</head>
+	<body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167558448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167558448-1');
+</script>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/jquery-1.4.2.min.min.js"></script>
+	
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<script>
+		function onLogin(){
+			if(document.getElementById('userid').value==''){
+				resetAll();
+				document.getElementById('userid').style.borderColor ="red";
+				showAlertPopup("Please Enter User Id");
+			}else if(!document.getElementById('userid').value.includes("@intelora.co.in")){
+				resetAll();
+				document.getElementById('userid').style.borderColor ="red";
+				showAlertPopup("Invalid User ID");
+			}else if(document.getElementById("password").value==''){
+				resetAll();
+				document.getElementById('password').style.borderColor ="red";
+				showAlertPopup("Please Enter Password");
+			}else{
+				resetAll();
+				showAlertPopup("Invalid Userid/Password");
+			}
+		}
+		function onRegistration(){
+			if(document.getElementById("fname").value==''){
+				resetAll();
+				document.getElementById('fname').style.borderColor ="red";
+				showAlertPopup("Please Enter First Name");
+			}else if(document.getElementById("lname").value==''){
+				resetAll();
+				document.getElementById('lname').style.borderColor ="red";
+				showAlertPopup("Please Enter Last Name");
+			}else if(document.getElementById("company").value==''){
+				resetAll();
+				document.getElementById('company').style.borderColor ="red";
+				showAlertPopup("Please Enter Company Name");
+			}else if(document.getElementById("emailid").value==''){
+				resetAll();
+				document.getElementById('emailid').style.borderColor ="red";
+				showAlertPopup("Please Enter Email ID");
+			}else if(document.getElementById("pass").value==''){
+				resetAll();
+				document.getElementById('pass').style.borderColor ="red";
+				showAlertPopup("Please Enter Password");
+			}else {
+				resetAll();
+				showAlertPopup("User Registration Request sent to Admin for Approval.");
+				document.getElementById('alertMessagePopup').style.background='green';
+			}
+			
+			
+			
+		}
+		function showAlertPopup(txt){
+				document.getElementById('alertMessagePopup').style.background='#f93d3d';
+				document.getElementById('alertMessagePopup').style.display='block';
+				document.getElementById('alertMessagePopup').innerHTML=txt;
+				setTimeout(function() {
+					document.getElementById('alertMessagePopup').style.display='none';
+				}, 20000);
+		}
+		function resetAll(){
+			document.getElementById('userid').style.borderColor ="#a3a3a3";
+			document.getElementById('password').style.borderColor ="#a3a3a3";
+			document.getElementById('fname').style.borderColor ="#a3a3a3";
+			document.getElementById('lname').style.borderColor ="#a3a3a3";
+			document.getElementById('company').style.borderColor ="#a3a3a3";
+			document.getElementById('emailid').style.borderColor ="#a3a3a3";
+			document.getElementById('UserType').style.borderColor ="#a3a3a3";
+			document.getElementById('pass').style.borderColor ="#a3a3a3";
+		}
+	</script>
+
+
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1 style="font-size:1.5em; display: inline; color: #fff;">IntelOra</h1>
+						<ul class="fh5co-social"  style="float:right;">
+							 <li><a href="#" style="color:#ff9b1c"><i class="icon-google"></i></a></li>
+							<li><a href="https://intelora.tumblr.com"><i class="icon-tumblr"></i></a></li>
+							<li><a href="https://in.pinterest.com/intelorar"><i class="icon-pinterest"></i></a></li>
+							<li><a href="https://www.instagram.com/intelora.r.d"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://twitter.com/InteloraRnD"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/director.intelora"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/director-intelora"><i class="icon-linkedin"></i></a></li>
+						</ul>
+						<p class="num text-right" style="float:right;">Call: (0091)-930-604-9136</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-menu">
+			<div class="container">
+				<div class="row" style="margin-left: -110px;">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html"><img alt="IntelOra - IT Software Solution Company" src="./images/LogoBanner.png"></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="solutions.html">Solution</a></li>
+							<li><a href="technologies.html">technologies</a></li>
+							<li><a href="contact.html#fh5co-contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</nav>
+	<div id="fh5co-services" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row" style="background:green;color:white;border:2px solid;padding:1.5em;display:none;" id="alertMessagePopup">
+			</div>
+			<div class="row">
+				<div class="col-md-6 animate-box text-center">
+					<div class="services" style="margin-top:2em;height:500px;">
+						<h3>User Registration</h3>
+						<form>
+						<p><b>Employee/Client/Partner</b> <br/></p>
+						<p><input type="text" id="fname" placeholder="First Name" style="width:35%;height:3em;">
+						<input type="text" id="lname" placeholder="Last Name" style="width:35%;height:3em;"></p>
+						<p><input type="text" id="company" placeholder="Organization Name" style="width:71%;height:3em;"></p>
+						<p><input type="text" id="emailid" placeholder="EmailID xxxxxx@intelora.co.in" style="width:71%;height:3em;"></p>
+						<p><input type="password" id="pass" placeholder="password" style="width:71%;height:3em;"></p>
+						<p><select id="UserType" style="width:71%;height:3em;">
+							<option id="Employee">Employee</option>
+							<option id="Client">Client</option>
+							<option id="Partner">Partner</option>
+						</select></p>
+						<p><input type="button" id="Approval" value="Approval" style="height:3em;" onclick="onRegistration();"/></p>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6 animate-box text-center">
+					<div class="services" style="margin-top:2em;height:500px;">
+						<h3>User Login</h3>
+						<p><b>Employee/Client/Partner</b> <br/> </p>
+						<form>
+						<p>EmailID: <br/><input type="text" id="userid" placeholder="EmailID xxxxxx@intelora.co.in" style="width:60%;height:3em;"></p>
+						<p>Password: <br/><input type="password" id="password" placeholder="xxxxxx" style="width:60%;height:3em;"></p>
+						<p><input type="button" value="Submit" style="height:3em;" onclick="onLogin();"/></p>
+						</form>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+
+	<footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);" role="contentinfo">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+					<h3>IntelOra Resources & Developments (IntelOra)</h3>
+					<p>IntelOra Resources & Developments is one of the fastest upcoming providers of Software Services and Solutions.</p>
+					<p><a class="btn btn-primary" href="./contact.html#fh5co-contact">Write Us Inquiry</a></p>
+				</div>
+				<div class="col-md-8">
+					<h3>Our Services</h3>
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="https://intelora.co.in/en/modal-applicationdevelopment.html">Applications Development</a></li>
+							<li><a href="https://intelora.co.in/en/modal-webdesigndevelopment.html">Web Development</a></li>
+							<li><a href="https://intelora.co.in/en/modal-mobileappdevelopment.html">Mobile Apps Development</a></li>
+							<li><a href="https://intelora.co.in/en/modal-portaldevelopment.html">Portal Development</a></li>
+							<li><a href="https://intelora.co.in/en/modal-webdesigndevelopment.html">Web Designing</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="https://intelora.co.in/en/modal-artificialintelligencebigdata.html">Big Data Solution</a></li>
+							<li><a href="#">Database Management</a></li>
+							<li><a href="#">Infrastructure</a></li>
+							<li><a href="#">Networking Software</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="https://intelora.co.in/en/modal-productenhancement.html">Product Enhancement</a></li>
+							<li><a href="#">Infrastructure</a></li>
+							<li><a href="#">Deployment</a></li>
+							<li><a href="#">IT Support</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2019, IntelOra Resources & Developments LLP. All Rights Reserved.</small> 
+						<small class="block">Website Developed by <a href="http://intelora.co.in/" >IntelOra Resources & Developments </a> India </small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-google"></i></a></li>
+							<li><a href="https://intelora.tumblr.com"><i class="icon-tumblr"></i></a></li>
+							<li><a href="https://in.pinterest.com/intelorar"><i class="icon-pinterest"></i></a></li>
+							<li><a href="https://www.instagram.com/intelora.r.d"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://twitter.com/InteloraRnD"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/director.intelora"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/director-intelora"><i class="icon-linkedin"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	
+
+	</body>
+</html>

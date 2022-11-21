@@ -1,0 +1,19 @@
+INSERT INTO `joinenq` (`id`, `fullname`, `emailid`, `contactno`, `datetime`, `cstatus`) VALUES (NULL, 'a', 'a', 'a', CURRENT_TIMESTAMP, '')
+
+https://intelora.co.in/api/rest/musicnftapi/customerenq_list.php
+
+https://intelora.co.in/api/rest/musicnftapi/customerenq_services.php
+
+  $emailid   = $data['emailid'];
+  $contactno = $data['contactno'];
+  $fullname  = $data['fullname'];
+  $cstatus   = $data['cstatus'];
+
+https://intelora.co.in/api/rest/musicnftapi/customer_list.php
+
+
+
+
+
+
+

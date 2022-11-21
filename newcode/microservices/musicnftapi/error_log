@@ -1,0 +1,47 @@
+[26-Aug-2022 17:13:09 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[26-Aug-2022 17:13:09 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[26-Aug-2022 17:14:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:14:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:17:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:17:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:18:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:18:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:18:48 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[26-Aug-2022 17:18:48 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[26-Aug-2022 17:18:50 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[26-Aug-2022 17:18:50 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[26-Aug-2022 17:18:52 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[26-Aug-2022 17:18:52 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[26-Aug-2022 17:22:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:22:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:22:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "console" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php:25
+Stack trace:
+#0 {main}
+  thrown in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 25
+[26-Aug-2022 17:23:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:23:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:23:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "console" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_functions.php:35
+Stack trace:
+#0 /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php(26): update_status(NULL, NULL)
+#1 {main}
+  thrown in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_functions.php on line 35
+[26-Aug-2022 17:24:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:24:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:24:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:24:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:25:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:25:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:25:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:25:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:25:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:25:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:26:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 23
+[26-Aug-2022 17:26:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_services.php on line 24
+[26-Aug-2022 17:28:32 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[26-Aug-2022 17:28:32 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[27-Aug-2022 18:54:37 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[27-Aug-2022 18:54:37 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[28-Aug-2022 14:17:09 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 45
+[28-Aug-2022 14:17:09 UTC] PHP Warning:  Undefined array key "action" in /home3/intelaku/public_html/api/rest/musicnftapi/customerenq_list.php on line 53
+[28-Aug-2022 14:56:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerwalletinfo_services.php on line 11
+[28-Aug-2022 14:56:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/intelaku/public_html/api/rest/musicnftapi/customerwalletinfo_services.php on line 12

@@ -21,12 +21,28 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 
 
-app.post("/api/post",(req,res)=>{
+app.post("/form",(req,res)=>{
+  console.log(req.body);
     const{name,email,contact,skills,experience,currentsalary,location,city,
       expectedsalary,expectedrole,currentrole,currentcompany} = req.body;
     const sqlInsert = " INSERT INTO studentdata (name,email,contact,skills,experience,currentsalary,location,city,expectedsalary,expectedrole,currentrole,currentcompany) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
     connection.query(sqlInsert,[name,email,contact,skills,experience,currentsalary,location,city,
       expectedsalary,expectedrole,currentrole,currentcompany],(error,result)=>{
+       if(error){
+        console.log(error);
+        } else{
+          res.send("values Inserted");
+        }
+      });
+  });
+
+app.post("/feedbackform",(req,res)=>{
+    console.log(req.body);
+    const{level1datetime,level1,level1status,level1feedback,level2datetime,level2,level2status,level2feedback,level3datetime,level3,level3status,level3feedback,level4datetime,level4,level4status,level4feedback} = req.body;
+
+    const sqlInsert =" INSERT INTO feedbackdata (level1datetime,level1,level1status,level1feedback,level2datetime,level2,level2status,level2feedback,level3datetime,level3,level3status,level3feedback,level4datetime,level4,level4status,level4feedback) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+     
+    connection.query(sqlInsert,[level1datetime,level1,level1status,level1feedback,level2datetime,level2,level2status,level2feedback,level3datetime,level3,level3status,level3feedback,level4datetime,level4,level4status,level4feedback],(error,result)=>{
        if(error){
         console.log(error);
         } else{
