@@ -2,6 +2,7 @@
 
 # dependencies
 ./basicwireframe/node_modules
+/basicwireframe/node_modules
 /.pnp
 .pnp.js
 
