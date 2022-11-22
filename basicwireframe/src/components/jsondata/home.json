@@ -1,0 +1,39 @@
+[
+    {
+      
+      "id": 1,
+      "title" : "COMPANY PROFILE",
+      "button": "Full Profile",
+      "content":"IntelOra Resources & Developments (IntelOra) is one of the fastest upcoming providers of Software Services and Solutions. Our mission is to incorporate advanced level IT solutions, Which make our clients to help in organization uplift in Business domain and smart Automated IT Solutions. Our development services and solution engrave a wide spectrum of technologies, like Microservice, BigData, Cloud, DevOps, AI/ML & Robotics with jazzy UI solution for Web & Mobile apps. Our Area of expertize is 'Architectural design solutions'for huge enterprise level very complex problem for expected performance and smart self automated IT solution."
+     
+    },
+    {
+     
+      "id": 2,
+      "title" : "PROVIDING SERVICES",
+      "button": "Services",
+      "content":"Our services include Designing, Building Architecture, Implementation with improving timely monotring. We work for delivering competitiveness along with proper quality reviews./nIntelOra believes Designing IT solutions and Architecting is competencies with strategy, Planing & Consulting values./nWe work keeping clocks and watches away, for 24 Hrs a day and 365 days of year. We ensure our Clients can connect & talk with them during clients working hours by just single click, same as next to desk. Result, of course is the NO REMOTE RESOURCES."
+     
+    },
+    {
+      
+      "id": 3,
+      "title" : "OUR EXPERTISE AND SERVICES",
+      "button": "Technologies",
+      "content":"Application Architect<ul><li>Solution Architect</li><li>API Architect</li><li>MicroService Architect</li><li>BlockChain Architect</li><li>Data Architect</li><li>Cloud Architect</li><li>AWS Architect</li><li>Infrastructure Architect</li><li> DevOps Architect</li><li>HealthCare IT Architect</li><li>Domain Driven Architecture</li><li>IOT Architecture</li>"
+     
+    },
+    {
+      "id":4,
+      "title":"ADVANCE SOLUTIONING/n(CLOUD, INTEGRATION, IOT, AI, ROBOTICS )",
+      "button":"Solutions",
+      "content":"IntelOra has the command, knowledge and confidence to provide the undoubted solution. We translate complex business and technology requirements into state-of-the-art, albeit easy-to-use solutions. Our emphasis on innovation and development of re-usable components and frameworks provides significant advantage and tangible value benefits to our clients. This desire to innovate and contribute pervades throughout the company, and forms the basis of our modus operandi."
+    },
+    {
+      "id":5,
+      "title":"QUALITY SOLUTION/n(MICROSERVICE, ETL, BPM, CMS SITES)",
+      "button":"Methodology",
+      "content":"Quality Assurance is an essential part of any project, which ensures the top quality of our solutions. We pay special attention to the quality assurance of the products and services we deliver. We believe that this is the best way to make products work as effectively as possible. Our clients can rely on our products working stably and as designed because we put an emphasis on quality assurance as a key factor in project success."
+    }
+   
+]

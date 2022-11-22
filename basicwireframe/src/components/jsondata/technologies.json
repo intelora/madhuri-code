@@ -1,0 +1,86 @@
+[
+    {
+      "id":1,
+      "title":"CORE & OPEN SOURCE",
+      "icon":"icon-text-document activeColor",
+      "content":"JAVA, J2EE, JSP, Servlet, Struts, Spring, Hibernate, EJB, C#, PHP, Multi-Threading Engine,"
+      
+    },{
+        "id":2,
+        "title":"Portal Development",
+        "icon":"icon-classic-computer activeColor",
+        "content":"Liferay, Portal Migration, Drupal, Jahia, WebRTC, ChatSupport, Spring portal"
+        
+      },
+      {
+        "id":3,
+        "title":"Mobile – App Development",
+        "icon":"icon-mobile activeColor",
+        "content":"Android, iOS, Flutter, IONIC, ReactNative, App Optimization, MarketPlace, Progressive Web"
+        
+      },
+      {
+        "id":4,
+        "title":"Web Design & Development",
+        "icon":"icon-code activeColor",
+        "content":"AngularJs, NodeJs, ReactJs, JQuery, AJAX, Spring Web, JSP, JSF,  CSS3, HTML5/ DHTML, JavaScript"
+        
+      },
+      {
+        "id":5,
+        "title":"AWS SOLUTIONS",
+        "icon":"icon-lifebuoy activeColor",
+        "content":"Athena, S3, EC2, DynamoDB, Migration, AWS Messaging, VPC, EKS, ECS, BeanStalk, Cloud Watch"
+        
+      },
+      {
+        "id":6,
+        "title":"DEVOPS SOLUTIONS",
+        "icon":"icon-github-with-circle activeColor",
+        "content":"GIT, Jenkin, Puppet, Chef, Docker, Ansible, Kubernate, Spring boot"
+        
+      },
+      {
+        "id":7,
+        "title":"ARTIFICIAL INELEGANCY (AI/ML)",
+        "icon":"icon-chat activeColor",
+        "content":"ChatBoat, OpenNLP, Java-ML, Scala MLib, Process Automation RPA, Power BI, Tableau, QlikSense, MSBI"
+        
+      },
+      {
+        "id":8,
+        "title":"BIG DATA & DATA VISUALIZATION",
+        "icon":"icon-eye2 activeColor",
+        "content":"Scala, Splunk, Spark, Pig, Hive, Mango, Cassendra, Hbase, Principal Componenet Analysis, QlikSense"
+        
+      },
+      {
+        "id":9,
+        "title":"CLOUD COMPUTING",
+        "icon":"icon-creative-cloud activeColor",
+        "content":"PaaS, Cloud Log Monitor, Elastic Cloud, ElasticCache, Google Cloud, Cloud Analytics, Cloud Migration, Distributed Services"
+        
+      },
+      {
+        "id":10,
+        "title":"MICROSERVICES",
+        "icon":"icon-cog activeColor",
+        "content":"API Gateway, Data Reconciliation, Eureka Netflix, Service Routing, REST Service Integration, Service Discovery & registry"
+        
+      },
+      {
+        "id":11,
+        "title":"DATABASES",
+        "icon":"icon-database activeColor",
+        "content":"Mongo DB, Cassandra, Graph DB, Neo4J, Nosql, AWS DynamoDB. MS-SQL, MySQL Server, Oracle 8i, Postgres,"
+        
+      },
+      {
+        "id":8,
+        "title":"SECURITY",
+        "icon":"icon-key activeColor",
+        "content":"Oauth2, AWS IAM, SSO, SAML, Spring Security, Encryption Implementation, User/Role/Permission Solution"
+        
+      }
+    
+]

@@ -1,0 +1,14 @@
+[
+    {
+       "id":1,
+       "title":"SOFTWARE DEVELOPMENT SOLUTION PROCESS",
+       "image":"./images/iot_cloud_technology.png",
+       "content":"Successful project management is characterized by good planning, effective discovery and resourcing, realistic expectations of outcomes and strong management support. The more complex a project, more attention to detail is required to its project management through the adoption and use of a project management methodology."
+    },
+     {
+       "id":2,
+       "title":"Business Domain Solutions & Our Expertise",
+       "image":"./images/domain.png",
+       "content":"The IntelOra domain expert's has vast experience using Java / Microservices/ Cloud Technologies on various domains like: Payment Gateway, Ecommerce, Core & Corporate Banking, Credit Rating, Shipping, Forex, Civil, Social Networking, Insurence, CMS Web Portals, Utility, Healthcare and Media for developenment, Migration & Maintanance. "
+     }
+   ]

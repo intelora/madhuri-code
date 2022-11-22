@@ -1,0 +1,47 @@
+[
+    {
+      
+      "id": 1,
+      "title": "Payment Gateway",
+      "image": "./images/product_paymentgateway_solution.png",
+      "content": "IntelOra's Payment Gateway Modules",
+      "para":"To find out more about the features and product detail.",
+       "button":"ContactUs"
+    }, {
+      
+        "id": 1,
+        "title": "CRM",
+        "image": "./images/product_crm_solution.png",
+        "content": "Our CRM Solutions core modules diagram",
+        "Para":"To find out more about the features and product detail.",
+        "button":"ContactUs"
+      },
+      {
+      
+        "id": 1,
+        "title": "IORD LENDING APP",
+        "image": "./images/product_lending_solution.png",
+        "content": "IORDs Smart & Automated Lending Solution",
+        "Para":"To find out more about the features and product detail.",
+        "button":"ContactUs"
+      },
+      {
+      
+        "id": 1,
+        "title": "CRYPTOCURRENCY WALLET",
+        "image": "./images/product_cryptowallet_solution.png",
+        "content": "Intelora's Blockchain based Crypto Wallets Mobile App View",
+        "Para":"To find out more about the features and product detail.",
+        "button":"ContactUs"
+      },
+      {
+      
+        "id": 1,
+        "title": "E-COMMERCE",
+        "image": "./images/product_ecomm_solution.png",
+        "content": "IntelOra's Ecommerce Solution Architecture",
+        "Para":"To find out more about the features and product detail.",
+        "button":"ContactUs"
+      }
+   
+]

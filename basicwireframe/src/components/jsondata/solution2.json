@@ -1,0 +1,14 @@
+[
+ {
+    "id":1,
+    "title":"SOFTWARE DEVELOPMENT SOLUTION PROCESS",
+    "image":"./images/software_solution.png",
+    "content":"Successful project management is characterized by good planning, effective discovery and resourcing, realistic expectations of outcomes and strong management support. The more complex a project, more attention to detail is required to its project management through the adoption and use of a project management methodology."
+  },
+  {
+    "id":2,
+    "title":"BUSINESS DOMAIN SOLUTIONS & OUR EXPERTISE",
+    "image":"./images/domain.png",
+    "content":"The IntelOra domain expertise has vast experience using Java technologies on various domains like: BFSI, Web Portals, Utility, Social Networks, Telecom & VoIP, Healthcare and Media. Our full-cycle services include enterprise application integration and migration from legacy systems and technologies."
+  }
+]

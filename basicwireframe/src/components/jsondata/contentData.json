@@ -3,15 +3,8 @@
       
       "id": 1,
       "title": "Modal1",
-      "Image": "./images/gallery-10.jpg",
+      "image": "./images/LogoBanner.png",
       "color": "#FFC0CB"
      
-    },
-    {
-     
-      "id": 2,
-      "title": "Modal2",
-      "Image": "./images/gallery-10.jpg",
-      "color": "yellow"
     }
 ]

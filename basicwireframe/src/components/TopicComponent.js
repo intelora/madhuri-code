@@ -1,6 +1,5 @@
 import React from 'react';
 import contentData from '../components/jsondata/contentData.json';
-// import image from "../../public/images/gallery-10.jpg";
 
 const TopicComponent=()=>{
 
@@ -13,7 +12,7 @@ const TopicComponent=()=>{
             <div>
             <h1>{contentData.title}</h1>
             <h2>{contentData.color}</h2>
-            <img src={contentData.image}/>
+            <img src={contentData.image} alt="aaaaa"/>
             
           </div>
 
