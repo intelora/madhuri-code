@@ -1,6 +1,6 @@
 import React from "react";
-import solution from '../../components/jsondata/solution.json';
-import solution2 from '../../components/jsondata/solution2.json';
+import solution from '../../components/jsondata/sectionsjson/solution.json';
+import solution2 from '../../components/jsondata/sectionsjson/solution2.json';
 
 const SolutionSection = () => {
    

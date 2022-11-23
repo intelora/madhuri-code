@@ -1,0 +1,40 @@
+{"page":"iotsolution",
+"title": "IOT APPLICATION DEVELOPMENT SERVICES",
+"contentData":[
+    {
+        "tag":"0",
+        "subheading":"AWS IOT- (AWS IoT, IOT Core, AWS IOT Event, 1-Click)",
+        "content":"IntelOra use AWS IOT’s Device Gateway for transaction log as its entry point for our solution. After device registry we used device SDK to connect, authenticate, and exchange messages with AWS IoT Core, which is using the MQTT, HTTP, or WebSockets protocols based communication. To process those message with register devices we have use KAFKA as Message Broker to handle high throughput pub/sub messages that securely transmits messages as one-to-one command and control messaging, to one-to-one million (or more!) broadcast notification systems. IntelOra IOT application development services follows SigV4 for security while connecting to device and cloud to create Device Shadow and encrypt data."
+    },
+    {
+        "tag":"0",
+        "subheading":"IOT Event, 1-Click",
+        "content":"IntelOra used 1-Click and AWS Lambda expression to make easy trigger command for ready-to-use type of features. We had use IOT Event for customized coffee vending machine for its test, quantity, quality and other features. The 1-Click event were used as in auto triggered for various level of stages to perform different operations."
+    },
+    {
+        "tag":"0",
+        "subheading":"MyBit Fitness Tracker",
+        "content":"MFT is AWS IoT Core based component which provides authentication and end-to-end encryption throughout all points of connection, so that health data exchanged with centralized server without exchanged between devices. The associated group rights were shared between Hospitals and health agencies specified policies with granular permissions. AWS IoT Core, was responsible for filter, transform, and act upon device data on the fly, based on business rules define by agencies. MFT Admin tool worked as Group customization, by AWS Customized Group Registry feature and able to handle group based on disease./nHealthcare Agencies use AWS IoT Analytics to provide MFT data for health and time tracking input from device. MFT using AWS IoT Core stores to save latest state of a connected device so that it can be read or set at anytime. Agencies can command the device appear to applications as if it were online all the time. Best IOT Application development services can read a device’s state even when it is disconnected, and also allows you to set a device state and have it implemented when the device reconnects."
+    },
+    {
+        "tag":"0",
+        "subheading":"Protocols (CoAP, MQTT, AMQP, DDS)",
+        "content":"IntelOra team has specialization over IoT protocol work. We used CoAP for direct machine to machine communication where it was restricted to gadgets and require communicating over the low bandwidth with CoAP protocol over HTTP protocol. IntelOra worked over many devices via MQTT (Message Queue Telemetry Transport) and get information over centralized server for message dealer to subscribe and publish data. Once we have message in server we have used Advanced Message Queuing Protocol (AMQP) for Exchange and binding the message over the Message Queue and process those messages to convert pure IT object (further BigData solution). IntelOra provided scalable Real-time and high performance based statistics to view report over Data Distribution Service (DDS) for device analysis. This entire solution worked on a Health Care & Human Resource Domain based on IoT Solution."
+    },
+    {
+        "tag":"0",
+        "subheading":"Hardware integration - Raspberry Pi",
+        "content":"We have integrated Raspberry Pi: based solution to get device level storage and processing commands to control real-world ‘device’ via the Raspberry Pi’s GPIO. IntelOra provide solution to Export GPIO pins and configuration as per user handy. It maintain the and configure GPIO pin edge detection with pin states during interrupt-based events. The auto save suppose to set auto state at shutdown and store the data with integrated Java Server over the cloud."
+    },
+    {
+        "tag":"0",
+        "subheading":"Hardware integration - Arduino",
+        "content":"IntelOra build Ardunio based Hardware interface solution to connect and wire up devices for I/O data operation with Mechanical machine. This hardware itself has storage and communicated Arudio board plugs. We customize hardware to data Logging and Plotting for Trade system."
+    },
+    {
+        "tag":"0",
+        "subheading":"Hardware integration - ESP8266",
+        "content":"IntelOra provide solution with Arduino WiFi library to process multiple data objects with parallel queue on multiple devices. It always start new queue for new type of objects with devices. All Data processing has to manage with security and STA interface packets, Hence all device were require to connect with WIFI + Security. After finishing queue it send consolidated result to server via WifiPrintData(). The WiFiUDP class supports sending and receiving multicast packets on STA interface. When sending a multicast packet. We integrated this wifi solution to listening to multicast packets and it confirm back to queue source."
+    }
+]
+}

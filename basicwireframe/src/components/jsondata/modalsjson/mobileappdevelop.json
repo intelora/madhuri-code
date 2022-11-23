@@ -1,0 +1,29 @@
+{"page":"mobileappdevelopment",
+        "title": "MOBILE APP DEVELOPMENT SERVICES",
+        "contentData":[
+            {
+                "tag":"0",
+                "subheading":"Mobile App Development (Android & iOS)",
+                "content":"IntelOra Team has build Android and iOS based mobile app solution to its customer as enterprise mobility solution for team interaction for our MNC client, whos having approx 300+ center. The default expectation with App was security, performance and inter-org communication. This app help our client to make decision faster and allow direct interaction within organization. IntelOra team is expert & capable into Mobile App Development Services with Prototyping, Designing, Development & testing./nIntelOra team also worked on performance tuning, customize feature and application enhancement for existing Android or iOS apps."
+            },
+            {
+                "tag":"0",
+                "subheading":"ReactNative",
+                "content":"IntelOra has ReactNative developers to build Best mobile app development services in shorter development time. We build components to accelerate business process and flow to connect/communicate with handy approach. IntelOra React Native based solution can reuse codebase (or just a part of it) between iOS and Android with using less native module. Even though if it request, we work in socket/adaptor pattern, so code can plug anywhere. We help Our E-Commerce client, whoâ€™s expected to use the same API service call for ReactJs based website and ReactNative App."
+            },
+            {
+                "tag":"0",
+                "subheading":"Flutter",
+                "content":"IntelOra worked on features like Hot-reload solution with flutter application. The Hot-reload play important role with our map based walking solution for less visibility/blind human. It keep speaking and give live direction to end user with its camera eye. In this Flutter based solution we have build smooth and seamless scrolling experiences App without much hangs or cuts./nLess testing effort: Since Flutter apps are cross-platform, the testers do not always require to run the same set of tests on different platforms, such as iOS and Android, for the same app. Its Cross-platform application development enables applications to run on multiple platforms by writing the programming code only once in case of User Interface or UI/UX complexity."
+            },
+            {
+                "tag":"0",
+                "subheading":"App MarketPlace",
+                "content":"IntelOra worked for well known TV/Electronic company for their own customized apps, They want to make logo customization for each Apps, navigation and App customization (based on device), App Detail, rating, Comments etc on MarketPlace board. IntelOra build Smart self/Auto categorized MarketPlace Navigator, Which able to set category based on Application Content, like News, Game, TV Chennal, Recording, Video editors etc. This MarketPlace Admin tool use to internally manage/Control and monitor by product Support team for all operations like add new APP, Update version, customization for Device etc. It notifies to customer for any new launch/version update via push notification so their TV/LCD/LED works fine without interrupted"
+            },
+            {
+                "tag":"0",
+                "subheading":"App OptimiZaton",
+                "content":"IntelOra team helps to clients to Application Optimization for data, calls, network bendwidth, screens and view. Optimization is the one of important factor for rating and popularity by Increase retention rate. We understand its importance and it is very difficult to stand out but not impossible for IntelOra. IntelOra designs discover patter which does profiling & tuning for user defined transactions to make easy optimization and provide analytical data to discovery patterns. This IntelOra discovery pattern helps to improve App rank based on keyword search and keep input from AppStore. Our discover pattern also suggest to Admin to put right place, to put right content, with relevant Store. IntelOra also work on technical front wherever require to rewrite codebase/update codebase for particular process, improve local data/server-client data transfer and redefine view to Optimized based on EndUser calls for historical events."
+            }
+        ]}

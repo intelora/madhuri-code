@@ -1,0 +1,40 @@
+{"page":"blockchaindev",
+"title": "BLOCKCHAIN SOLUTION",
+"contentData":[
+    {
+        "tag":"0",
+        "subheading":"TRACK & TRACEABILITY",
+        "content":"Solution For Tracing manufacturing processes using blockchain based token compositions:We provide supply chain traceability solutions based on blockchain. We provide traceability of manufactured goods ,including their components.<ul><li>Building trust along with the chain4real blockchain.</li><li>Growing consumer awareness as well as manufacturer’s internal quality monitoring.</li> <li>Decentralized blockchain based transaction to ensure 0% counterfeiting.</li><li>Traceability allows tracking products through all stages of a supply chain.</li><li>The most secure transaction to ensure traceability and product insight.</li><li>Chain4real architecture provides transparent tamper-proof traceability information.</li><li>AI driven regulatory compliance checking, which enables system adaptability.</li><li>IoT based remote monitoring and control throughout the lifecycle of product.</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"CYBER SECURITY",
+        "content":"Solution For PREVENTION OF DDoS Attacks<ul><li>Attacks like Distributed Denial-of-Service (DDoS) pose a growing threat to computer networks and internet services.</li> <li>Existing strategies for mitigating DDoS attacks are inefficient because of lacking resources and inflexibility.</li><li>Ethereum blockchain enable new ways to fight DDoS attacks: Using smart contracts, IP addresses of attackers can be singalized without additional infrastructure.</li><li>Using multiple smart contracts for signalisation of DDoS attacks and compares them.</li><li>The solution advice about the performance and costs and evaluates the overall feasibility and effectivity for fighting DDoS attacks.</li><li>Thesolutin support a larger number of addresses with a bloom filter.</li><li>Customer Certified IPv4() to allow more hierarchies to map subnets accordingly.</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"ANTI-COUNTERFEITING",
+        "content":"Solution For Anti Counterfeiting<ul><li>GS1 compliant customized serialization for manufacturer.</li><li>Advanced serialization for all level track & traceability.</li><li>Instance level track & traceability throughout the lifecycle of the product.</li><li>Turn your existing barcode / 2D Data matrix / QR code into a unique digital identifier— impossible to duplicate.</li><li>Authenticate and track products at the instance level</li><li>Get real-time insight and total supply chain visibility for all your products.</li><li>IoT enabled control / monitoring to your temperature and humidity sensitive products.</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"REMITTANCE",
+        "content":"Solution  for Reshaping Remittance industry<ul><li>Remittance and Payment Processing solution allows as a real-time gross settlement system.</li><li>Independent servers participate in the network as possible to ensure high availability.</li> <li>Decentralized details of the transactions, including the KYC (Know Your Customer).</li><li>Cross Border Instant Settlement using blockchain enabled transaction settlement.</li><li>Anti Counterparty Risks Management with improved contractual performance.</li><li>Increased Transaction Transparency and secure money transfers across bank.</li> <li>Reduced Fraud Via Self Sovereign Identity to reduced error handling and reconciliation.</li><li>Anti-Money Laundering (AML) Smart contract for country specific regulatory / guidelines.</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"KYC",
+        "content":"Solution  for KYC through blockchain <ul><li>KYC And Suspicious Activity Reporting.</li> <li>Smart contract managed security protocols to prevent fraud</li><li>Smart contracts are compliant with the Bank Secrecy Act.</li><li>Digital identity verification with online and mobile banking applications.</li><li>Document cryptographic verification for sensitive client data using AI.</li> <li>Data privacy and control with KYC reporting by identifying and acting on suspicious behavior.</li><li>All consumer data would only be accessed by trusted sources.</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"CRYPTO TRADING",
+        "content":"Solution For Crypto trading through blockchain <ul><li>Protection from unauthorized access to the administrator account (hacking)</li><li>Preventing access violation to the server.</li> <li>AI enable automated KYC verification process for various countries</li><li>Secure Wallet – Two-factor authentication, multi-sig wallet.</li><li>Two-factor authentication for more secure access to your wallet.</li><li>History of financial and security audits and transactions.</li><li>Buy, Sell and transfer crypto currency in any currency form to beneficiary account.</li><li>Backed by stable and resilient infrastructure.</li><li>All of the digital currency pairs trading/market value search at realtime.</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"ASSET MANAGEMENT",
+        "content":"Solution for Digital Asset Management<ul><li>Ensures the proper storage of data assets and accelerated creation of data assets</li><li>Enables the easy storage, search, and distribution of assets, across multiple channels</li><li>Enables increased control and protection of data assets</li><li>Accelerates production and delivery timelines for manufacturer.</li><li>Support the management of digital asset license agreements</li><li>Significantly reduces the risk of liability from expired asset licenses</li><li>Eases asset distribution across channels, resulting in increased time efficiency</li></ul>"
+    }
+  ]
+}

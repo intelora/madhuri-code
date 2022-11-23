@@ -1,0 +1,34 @@
+{"page":"microserviessolutions",
+        "title": "MICROSERVICE SOLUTION SERVICES",
+        "contentData":[
+            {
+                "tag":"0",
+                "subheading":"API Gateway",
+                "content":"IntelOra Architects work on customize API gateway which work and acts as a single point of entry for a defined group of best Micro Services. This gateway is enough capable to integrate with advance security solution like OAuth-2 so our client was able to provide Developer portal platform. IntelOra team made a gateway which handles protocol translations. IntelOra API gateways solution allows developers to encapsulate the internal structure of an application in multiple ways, like MicroService custom product /App/Sites/portal etc. with use of multiple, disparate APIs. We enable Rate Limit counter within API gateway solution as itâ€™s the central entry point for any MicroService Request."
+              },
+            {
+                "tag":"0",
+                "subheading":"Service Migration",
+                "content":"IntelOra micro Service providers Migration solutions ensure that an individual or organization can easily shift between different cloud vendors without encountering implementation, integration, compatibility and interoperability issues. We provide migration technology plan by which an application, infrastructure or any cloud-hosted applications or services are prevented from being locked into a single vendor. In an Enterprise Application which can have many functions, and there are many reasons you may need to focus for flexibility. Service Migration is a strategic move to a hosted computing environment, dealing with a data loss incident, moving servers to enhance business intelligence, or to build a simpler computing construct, and extremely detailed process - one that requires the knowledge and expertise of a trained IT professional to provide."
+            },
+            {
+                "tag":"0",
+                "subheading":"Identity Provider & Security",
+                "content":"IntelOra worked with environments where services served as Saas & Pass while taking smart security solution such AWS-IAM and Oauth2 integration. This sort of security implementation provides protection such as documents those require Role Based, Policy Based, Domain Based and Permission Based security. IntelOra also taken care with Clients End-user Social sign-on data and AWS-IAM data integration. We have integrated AI based layer to able to protection to safeguard your identity against phishing, simple malware, brute-force attacks and credential database breaches. AWS based identity provider was responsible to handle entity that creates, maintains, and manages identity information for principals while providing authentication services to relying applications within a federation or distributed network."
+            },
+            {
+                "tag":"0",
+                "subheading":"Data Consolidation & Reconciliation",
+                "content":"IntelOra give Microservices biggest problem solution in very simple manner. It take care for any number of internal transaction failover scenario and transaction reversal process along with Data Reconciliation. IntelOra understand the importance of Data which is generated from many disparate sources and in many different formats and maintain a flow table. This flow table help to Data consolidation & Reconciliation so client can save burden from extra process like removes any redundancies, and cleans up any errors before it gets stored in one location, like a data warehouse or data lake. The smart Solution takes care about data operations (updated, inserted, or deleted records) in a database are merged properly with a data warehouse. IntelOra solution give tremendous performance improvement and cost saving by its own customization."
+            },
+            {
+                "tag":"0",
+                "subheading":"Service Routing",
+                "content":"IntelOra team build a dynamic configurable service routing tool for Developers who want to configure dynamic call for service processes traffic to specific application. This work based on Drool based rules, without manual infrastructure configuration. Service Routing flow designed in manner where it not passes through the Infrastructure based route service. This is light weight solution for similarly heavy weight service broker in early decade. It maintains faster way to help network hops by cache within itself and route technique. IntelOra solve traffic issue for application that do make much internal calls can use this service and makes fewer network hops because requests for those apps do not pass through the network route service."
+            },
+            {
+                "tag":"0",
+                "subheading":"MicroServices with CD/CI nature",
+                "content":"IntelOra provide DevOps+Microservice solution with AI & Machine learning technology. This solution maintain list of input and output more similar test cases. While any of the Microservice get update or any CD/CI process trigger. It validate I/O structure before moves on to the integration. In case some mandatory field has been added to existing service then Developer do not need to worry about those parameter. The Smart Executor add parameter within all dependent service and ensure it work properly without fail./nIntelOra provide guideline for entire team's branching strategy, based on feature-based development to make CD/CI development smooth. The team uses release branches to manage releases. Separate releases are created for each microservice. IntelOra ensure CD/CI pipeline should flow with build>test>deploy flow over the Microservice implementation. The solution also handle container images for each microservice are stored in Container Registry"
+            }
+        ]}

@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../../components/jsondata/home.json";
+import home from "../../components/jsondata/sectionsjson/home.json";
 
 const Section = () => {
    

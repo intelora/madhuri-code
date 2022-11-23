@@ -1,5 +1,5 @@
 import React from "react";
-import product from "../../components/jsondata/product.json";
+import product from "../../components/jsondata/sectionsjson/product.json";
 
 const ProductsSection = () => {
    

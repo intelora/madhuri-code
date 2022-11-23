@@ -1,5 +1,5 @@
 import React from "react";
-import contact from '../../components/jsondata/contact.json';
+import contact from '../../components/jsondata/sectionsjson/contact.json';
 
 const ContactUs = () => {
    

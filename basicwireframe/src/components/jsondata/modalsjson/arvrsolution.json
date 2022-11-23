@@ -1,0 +1,30 @@
+{"page":"arvrsolution",
+"title": "AR-VR- SOLUTION",
+"contentData":[
+    {
+        "tag":"0",
+        "subheading":"Event Planner",
+        "content":"IntelOra design AR based solution for IT tool to manage Event Planning business. Where user can see all view of room and sitting arrangement along with type of occasion, theme etc. For Corporate Event, this system itself allows all users to chat within group and give live suggestion before event. After event they can give review and comments."
+    },
+    {
+        "tag":"0",
+        "subheading":"Decoration Material Previewer",
+        "content":"It has unique Decoration Material Previewer where IntelOra smart DMP has unique feature for antique piece display and arrangement for special events. Selector can see rental or purchase costing of selected model as well he can change customized properties like color or size etc (subject to availability). Antique piece designer team and planner get market trade and enquiry reports based on, type of function and location. DMP also aims at engaging with the end user at a deeper level through functionalities like recommending further experiences / engagements based on better understanding of the end user, their peer behavior and the context of interaction."
+    },
+    {
+        "tag":"0",
+        "subheading":"Game Animation Solutions",
+        "content":"IntelOra leverages popular gaming engines to model, texturize, skin, rig, render, and animate gaming assets and animation sensors model in AR view."
+    },
+    {
+        "tag":"0",
+        "subheading":"Gaming Architecture for AR-VR",
+        "content":"We design architecture solution to work with AR-VR based game to designs using LAN connectivity to supported devices as well as internet supported devices with low bandwidth."
+    },
+    {
+        "tag":"0",
+        "subheading":"Virtual Input Device",
+        "content":"IntelOra develop AR based virtual input devices controller it use AI and Robotics to perform as controller for virtual hardware such as keyboards, controllers, joysticks, real-time motion control devices, and tools."
+    }
+  ]
+}

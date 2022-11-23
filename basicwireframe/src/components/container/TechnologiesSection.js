@@ -1,6 +1,6 @@
 import React from "react";
-import technologies from '../../components/jsondata/technologies.json';
-import technologies2 from '../../components/jsondata/technologies2.json';
+import technologies from '../../components/jsondata/sectionsjson/technologies.json';
+import technologies2 from '../../components/jsondata/sectionsjson/technologies2.json';
 
 
 const TechnologiesSection = () => {
@@ -42,11 +42,7 @@ const TechnologiesSection = () => {
 		  </div>
 	    </div>
       </div>
-   </div>
-
-
-
-    
+   </div>    
     );
   };
   
