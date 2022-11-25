@@ -3,99 +3,101 @@
   "subheading":"DEVELOPMENT | SUPPORT | MAINTENANCE",
   "contentData": [
     {
+      "topicid":"appdevelop",
       "id":1,
       "title":"Applications Development",
       "image":"./images/gallery-1.jpg"
     },
     {
+      "topicid":"cloudsolution",
       "id":2,
       "title":"Cloud Solution",
       "image":"./images/gallery-10.jpg"
     },
     {
+      "topicid":"blockchain",
       "id":3,
       "title":"BlockChain Solution",
       "image":"./images/gallery-13.jpg"
     },
     {
+      "topicid":"webdesign",
       "id":4,
       "title":"Web Design & Development",
       "image":"./images/gallery-4.jpg"
     },
     {
+      "topicid":"iotsolution",
       "id":5,
       "title":"IOT Solution",
       "image":"./images/gallery-6.jpg"
     },
     {
+      "topicid":"artificial",
       "id":6,
       "title":"Artificial Intelligence & Big Data Data Management",
       "image":"./images/gallery-5.jpg"
     },
     {
+      "topicid":"portaldevelopment",
       "id":7,
       "title":"Portal Development",
       "image":"./images/gallery-7.jpg"
     },
     {
+      "topicid":"microservice",
       "id":8,
       "title":"MicroService Solution",
       "image":"./images/gallery-8.jpg"
     },
     {
+      "topicid":"devopssolution",
       "id":9,
       "title":"DevOps Deployment",
       "image":"./images/gallery-9.jpg"
     },
     {
+      "topicid":"abc",
       "id":10,
       "title":"Payment Gateway",
       "image":"./images/gallery-11.jpg"
     },
     {
+      "topicid":"productenhancement",
       "id":11,
       "title":"Product Enhancement",
       "image":"./images/gallery-2.jpg"
     },
     {
+      "topicid":"mobileappdevelop",
       "id":12,
       "title":"Mobile Apps Development",
       "image":"./images/gallery-3.jpg"
     },
     {
+      "topicid":"gamingdevelopment",
       "id":13,
       "title":"Gaming solution / PixiJs",
       "image":"./images/gallery-14.jpg"
     },
     {
+      "topicid":"arvrsolution",
       "id":14,
       "title":"AR-VR Solution",
       "image":"./images/gallery-15.jpg"
     },
     {
+      "topicid":"abc",
       "id":15,
       "title":"E-Commerce Solution",
       "image":"./images/gallery-16.jpg"
     },
     {
-      "id":16,
+      "topicid":"roboticsdev"
+      ,"id":16,
       "title":"Robotics",
       "image":"./images/gallery-17.jpg"
-    },
-    {
-      "id":17,
-      "title":"5G Implementation",
-      "image":"./images/gallery-18.jpg"
-    },
-    {
-      "id":18,
-      "title":"5G Implementation<",
-      "image":"./images/gallery-19.jpg"
-    },
-    {
-      "id":19,
-      "title":"5G Implementation<",
-      "image":"./images/gallery-20.jpg"
     }
+   
   ]
 }
