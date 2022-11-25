@@ -19,10 +19,6 @@ body {
   background: #fff;
 }
 
-.activeColor{
-  color: #ff7b06;
-}
-
 #page {
   position: relative;
   overflow-x: hidden;
@@ -167,20 +163,20 @@ h2{
 .fh5co-nav ul {
   padding: 18px;
   margin: 15px 0 0 0;
-
 }
 .fh5co-nav ul li {
-  padding: 0;
   margin: 0;
   list-style: none;
   display: inline;
 }
-.fh5co-nav .top-menu ul li a {
+.fh5co-nav .top-menu ul li {
   color: #042300;
   font-weight: bold;
 }
-
-.fh5co-nav ul li a {
+.menuBar {
+  padding: 0em 1.5em;
+}
+.fh5co-nav ul li  {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -188,6 +184,10 @@ h2{
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.activeColor{
+  color: #ff7b06 !important;
+}
+
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: #000000;
   !important;

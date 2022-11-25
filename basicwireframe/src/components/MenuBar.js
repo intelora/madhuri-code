@@ -1,26 +1,27 @@
-import React from "react";
+import React,{useState} from "react";
 
-const MenuBar = () => {
-   
+const MenuBar = (props) => {
+	const [activeMenu, setActiveMenu]=useState("");
+
     return (
-        <div >
+        <div className="fh5co-nav">
           <div className="top-menu">
 			<div className="container">
 				<div className="row">
 					<div className="col-xs-10 text-right menu-1" >
 						<ul>
-							<li className="active"><a href="index.html">Home</a></li>
-							<li><a href="products.html">Products</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="solutions.html">Solution</a></li>
-							<li><a href="technologies.html">Technologies</a></li>
-							<li><a href="contact.html#fh5co-contact">Contact</a></li>
+							<li className={activeMenu && activeMenu==="Home" ? "activeColor menuBar" : "menuBar"} onClick={()=>{props.setSelectedMenu("Home"); props.setSelectedtopicid(""); setActiveMenu("Home")} }>Home</li>
+							<li className={activeMenu && activeMenu==="Product" ? "activeColor menuBar" : "menuBar"} onClick={()=>{props.setSelectedMenu("Product"); props.setSelectedtopicid(""); setActiveMenu("Product")}}>Products</li>
+							<li className={activeMenu && activeMenu==="Services" ? "activeColor menuBar" : "menuBar"} onClick={()=>{props.setSelectedMenu("Services"); props.setSelectedtopicid(""); setActiveMenu("Services")}}>Services</li>
+							<li className={activeMenu && activeMenu==="Solution" ? "activeColor menuBar" : "menuBar"}onClick={()=>{props.setSelectedMenu("Solution"); props.setSelectedtopicid(""); setActiveMenu("Solution")}}>Solution</li>
+							<li className={activeMenu && activeMenu==="Technologies" ? "activeColor menuBar" : "menuBar"}onClick={()=>{props.setSelectedMenu("Technologies"); props.setSelectedtopicid(""); setActiveMenu("Technologies")}}>Technologies</li>
+							<li className={activeMenu && activeMenu==="Contact" ? "activeColor menuBar" : "menuBar"} onClick={()=>{props.setSelectedMenu("Contact");props.setSelectedtopicid(""); setActiveMenu("Contact")}}>Contact</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-        </div>
+    </div>
     
     );
   };
