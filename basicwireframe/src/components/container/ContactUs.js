@@ -1,26 +1,115 @@
-import React from "react";
+import React,{useRef,useState,useEffect} from "react";
+import emailjs from "@emailjs/browser";
 import contact from '../../components/jsondata/sectionsjson/contact.json';
 
 const ContactUs = () => {
+
+	
+	const initialValues = { user_name: "", user_companyname:"", user_email:"", subject: "", message:"", user_contactno:"",user_address:"" };
+	const [formValue, setFormValue] = useState(initialValues);
+	const [formError, setFormError] = useState({});
+    const [isSubmit, setIsSubmit]= useState(false);
+	const [formIsValid,setFormIsValid]=useState(false);
+ 
+
+	const form = useRef();
+
+	const changeHandler = (e) => {
+		const {name, value}= e.target;
+        setFormValue({...formValue, [name]: value});
+		
+	  }
+
+	const sendEmail = (e) => {
+	  e.preventDefault();
+	  console.log(formValue);
+	//   setFormValue("");
+	  setFormError(validationForm(formValue));
+	  setFormIsValid(true);
+	  setIsSubmit(true);
+   
+
+	  emailjs
+		.sendForm(
+		  "service_i1dy8vf",
+		  "template_sqq2pfh",
+		  form.current,
+		  "w5ZpquwhgLaToZQFo"
+		)
+		.then(
+		  (result) => {
+			console.log(result.text);
+			console.log("message sent");
+		  },
+		  (error) => {
+			console.log(error.text);
+		  }
+		);
+	}
+
+	const validationForm = (value)=>{
+        const errors= {};
+        const emailPattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+ 
+        if(!value.user_name){
+            errors.user_name="Please Enter Name";
+        }
+		
+        if(!value.user_companyname){
+            errors.user_companyname="Please Enter Company Name";
+        }
+		
+        if(!value.subject){
+            errors.subject="Please Enter Subject";
+        }
+		
+        if(!value.message){
+            errors.message="Please Enter Message";
+        }
+		
+        if(!value.user_contactno){
+            errors.user_contactno="Please Enter Contactno.";
+        }
+ 
+        if(!value.user_email){
+            errors.user_email="Please Enter Email";
+        } else if(!emailPattern.test(value.user_email))
+        {
+            errors.email="Enter Valid Email";
+        }
+        if(!value.user_address){
+            errors.user_address="Please Enter Address";
+        }
+ 
+        return errors;
+    }
+ 
+    useEffect( ()=>{
+		//console.log(formError);
+        if(Object.keys(formError).length===0 && isSubmit && formIsValid)
+        {
+            console.log(formValue);
+        }
+    },[formError, formValue, isSubmit,formIsValid]);
    
     return (
 <div>
           
   <div id="fh5co-contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-md-push-1 animate-box">
+		<div className="container">
+			<div className="row">
+				<div className="col-md-5 col-md-push-1 animate-box">
         <h3>Contact Information</h3>
 
           {contact.map(contact=>{
             return(
-              <div class="fh5co-contact-info">
+              <div className="fh5co-contact-info">
 					
 						<h4>{contact.title}</h4>
 						<ul>
-							<li class="address">{contact.address}</li>
-							<li class="phone">{contact.phoneno}</li>
-							<li class="email"><a href="mailto:info@intelora.co.in" target="_blank">{contact.email}</a></li>
+							<li className="address">{contact.address}</li>
+							<li className="phone">{contact.phoneno}</li>
+							<li className="email"><a href="mailto:info@intelora.co.in" target="_blank">{contact.email}</a></li>
               
             </ul>
 					</div>
@@ -28,57 +117,118 @@ const ContactUs = () => {
           })
         }
 	 </div>
-				<div class="col-md-6 animate-box">
+				<div className="col-md-6 animate-box">
 				    <section>     
-        		    <div class="row" id="serverResponsee">
+        		    <div className="row" id="serverResponsee">
         		    </div>
 					<h3>Write Us</h3>
-					<form action="#fh5co-contact" id="enqform">
-						<div class="row form-group">
-							<div class="col-md-12">
+					<form action="#fh5co-contact" id="enqform"  ref={form} onSubmit={sendEmail}>
+						<div className="row form-group">
+							<div className="col-md-12">
 								<label for="fullname">Full Name</label>
-								<input type="text" id="enq_fname" class="form-control" placeholder="Your Full Name"/>
+								<input 
+								type="text" 
+								id="enq_fname" 
+								className="form-control" 
+								placeholder="Your Full Name"  
+								name="user_name"
+								value={formValue.user_name} 
+                                onChange={changeHandler}/>
 							</div>
 						</div>
+						<p>{formError.user_name}</p>
 
-						<div class="row form-group">
-							<div class="col-md-12">
-							<label for="lname">Last Name</label>
-								<input type="text" id="enq_organization" class="form-control" placeholder="Company/Organization Name"/>
+						<div className="row form-group">
+							<div className="col-md-12">
+							<label for="companyname">Company Name</label>
+								<input 
+								type="text" 
+								id="enq_organization" 
+								className="form-control" 
+								placeholder="Company/Organization Name" 
+								name="user_companyname"
+								value={formValue.user_companyname} 
+                                onChange={changeHandler}/>
 							</div>
 						</div>
+						<p>{formError.user_companyname}</p>
 
-						<div class="row form-group">
-							<div class="col-md-12">
+						<div className="row form-group">
+							<div className="col-md-12">
 							<label for="email">Email</label>
-								<input type="text" id="enq_email" class="form-control" placeholder="Your email address"/>
+								<input
+								 type="text" 
+								id="enq_email" 
+								className="form-control" 
+								placeholder="Your email address" 
+								name="user_email"
+								value={formValue.user_email} 
+                                onChange={changeHandler}/>	
 							</div>
 						</div>
-						<div class="row form-group">
-							<div class="col-md-12">
-				<label for="subject">Subject</label>
-								<input type="text" id="enq_subject" name="enq_subject" class="form-control" placeholder="Your subject of this message"/>
-							</div>
-						</div>
+						<p>{formError.user_email}</p>
 
-						<div class="row form-group">
-							<div class="col-md-12">
+						<div className="row form-group">
+							<div className="col-md-12">
+				<label for="subject">Subject</label>
+								<input 
+								type="text" 
+								id="enq_subject" 
+								className="form-control" 
+								placeholder="Your subject of this message"  
+								name="subject"
+								value={formValue.subject} 
+                                onChange={changeHandler}/>
+							</div>
+						</div>
+						<p>{formError.subject}</p>
+
+						<div className="row form-group">
+							<div className="col-md-12">
 							 <label for="message">Message</label>
-								<textarea name="message" id="enq_message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								<textarea 
+								id="enq_message" 
+								cols="30" 
+								rows="10" 
+								className="form-control" 
+								placeholder="Say something about us" 
+								name="message"
+								value={formValue.message} 
+                                onChange={changeHandler}></textarea>
+								</div>
+						   </div>
+                         <p>{formError.message}</p>
+						<div className="row form-group">
+							<div className="col-md-6">
+								<label for="lname">ContactNo.</label>
+								<input 
+								type="text" 
+								id="enq_contactNumber" 
+								className="form-control" 
+								placeholder="Contact Number" 
+								name="user_contactno"
+								value={formValue.user_contactno} 
+                                onChange={changeHandler}/>
 							</div>
+                            <p>{formError.user_contactno}</p>
+
+							<div className="col-md-6">
+								 <label for="lname">Address</label> 
+								<input 
+								type="text" 
+								id="enq_location" 
+								className="form-control" 
+								placeholder="Location like: City, Country" 
+								name="user_address"
+								value={formValue.user_address} 
+                                onChange={changeHandler}/>
+								</div>
+								<p>{formError.user_address}</p>
 						</div>
-						<div class="row form-group">
-							<div class="col-md-6">
-								<label for="lname">Last Name</label>
-								<input type="text" id="enq_contactNumber" class="form-control" placeholder="Contact Number"/>
-							</div>
-							<div class="col-md-6">
-								 <label for="lname">Last Name</label> 
-								<input type="text" id="enq_location" class="form-control" placeholder="Location like: City, Country"/>
-							</div>
-						</div>
-						<div class="form-group">
-							<input type="button" value="Send Message" class="btn btn-primary" onclick="sendMessageToEnquiry();"/>
+						<div className="form-group">
+							<button 
+							type="submit" 
+							className="btn btn-primary">Send Message</button>
 						</div>
 					</form>
 					</section>
