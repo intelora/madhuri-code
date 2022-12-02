@@ -1,83 +1,61 @@
 import React,{useRef,useState,useEffect} from "react";
 import emailjs from "@emailjs/browser";
 import contact from '../../components/jsondata/sectionsjson/contact.json';
+import './form.css';
 
 const ContactUs = () => {
 
-	
 	const initialValues = { user_name: "", user_companyname:"", user_email:"", subject: "", message:"", user_contactno:"",user_address:"" };
 	const [formValue, setFormValue] = useState(initialValues);
 	const [formError, setFormError] = useState({});
     const [isSubmit, setIsSubmit]= useState(false);
-	const [formIsValid,setFormIsValid]=useState(false);
- 
-
-	const form = useRef();
+	
+    const form = useRef();
 
 	const changeHandler = (e) => {
 		const {name, value}= e.target;
         setFormValue({...formValue, [name]: value});
-		
-	  }
+	}
 
 	const sendEmail = (e) => {
 	  e.preventDefault();
-	  console.log(formValue);
-	//   setFormValue("");
-	  setFormError(validationForm(formValue));
-	  setFormIsValid(true);
-	  setIsSubmit(true);
-   
-
-	  emailjs
-		.sendForm(
-		  "service_i1dy8vf",
-		  "template_sqq2pfh",
-		  form.current,
-		  "w5ZpquwhgLaToZQFo"
-		)
-		.then(
-		  (result) => {
-			console.log(result.text);
-			console.log("message sent");
-		  },
-		  (error) => {
-			console.log(error.text);
-		  }
-		);
-	}
-
-	const validationForm = (value)=>{
+	 setFormError(validationForm(formValue));
+	 setIsSubmit(true);
+    }
+	 
+	const validationForm = (values)=>{
         const errors= {};
-        const emailPattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
- 
-        if(!value.user_name){
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+		
+        if(!values.user_name){
             errors.user_name="Please Enter Name";
         }
 		
-        if(!value.user_companyname){
+        if(!values.user_companyname){
             errors.user_companyname="Please Enter Company Name";
         }
 		
-        if(!value.subject){
+        if(!values.subject){
             errors.subject="Please Enter Subject";
         }
 		
-        if(!value.message){
+        if(!values.message){
             errors.message="Please Enter Message";
         }
 		
-        if(!value.user_contactno){
+        if(!values.user_contactno){
             errors.user_contactno="Please Enter Contactno.";
-        }
+        }else if(contact.values.length!==10){
+            errors.user_contactno=" Please Enter Valid Contactno.";
+		}
  
-        if(!value.user_email){
+        if(!values.user_email){
             errors.user_email="Please Enter Email";
-        } else if(!emailPattern.test(value.user_email))
+        } else if(!emailPattern.test(values.user_email))
         {
-            errors.email="Enter Valid Email";
+            errors.user_email=" Please Enter Valid Email";
         }
-        if(!value.user_address){
+        if(!values.user_address){
             errors.user_address="Please Enter Address";
         }
  
@@ -86,11 +64,28 @@ const ContactUs = () => {
  
     useEffect( ()=>{
 		//console.log(formError);
-        if(Object.keys(formError).length===0 && isSubmit && formIsValid)
+        if(Object.keys(formError).length===0 && isSubmit)
         {
             console.log(formValue);
-        }
-    },[formError, formValue, isSubmit,formIsValid]);
+			emailjs
+			.sendForm(
+			  "service_i1dy8vf",
+			  "template_sqq2pfh",
+			  form.current,
+			  "w5ZpquwhgLaToZQFo"
+			)
+			.then(
+			  (result) => {
+				console.log(result.text);
+				console.log("message sent");
+			  },
+			  (error) => {
+				console.log(error.text);
+			  }
+			);
+         }
+		//  setFormValue("");
+    },[formError, formValue, isSubmit]);
    
     return (
 <div>
@@ -136,7 +131,7 @@ const ContactUs = () => {
                                 onChange={changeHandler}/>
 							</div>
 						</div>
-						<p>{formError.user_name}</p>
+						<p className="error">{formError.user_name}</p>
 
 						<div className="row form-group">
 							<div className="col-md-12">
@@ -151,7 +146,7 @@ const ContactUs = () => {
                                 onChange={changeHandler}/>
 							</div>
 						</div>
-						<p>{formError.user_companyname}</p>
+						<p className="error">{formError.user_companyname}</p>
 
 						<div className="row form-group">
 							<div className="col-md-12">
@@ -166,11 +161,11 @@ const ContactUs = () => {
                                 onChange={changeHandler}/>	
 							</div>
 						</div>
-						<p>{formError.user_email}</p>
+						<p className="error">{formError.user_email}</p>
 
 						<div className="row form-group">
 							<div className="col-md-12">
-				<label for="subject">Subject</label>
+				             <label for="subject">Subject</label>
 								<input 
 								type="text" 
 								id="enq_subject" 
@@ -181,7 +176,7 @@ const ContactUs = () => {
                                 onChange={changeHandler}/>
 							</div>
 						</div>
-						<p>{formError.subject}</p>
+						<p className="error">{formError.subject}</p>
 
 						<div className="row form-group">
 							<div className="col-md-12">
@@ -197,9 +192,10 @@ const ContactUs = () => {
                                 onChange={changeHandler}></textarea>
 								</div>
 						   </div>
-                         <p>{formError.message}</p>
+                         <p className="error">{formError.message}</p>
+
 						<div className="row form-group">
-							<div className="col-md-6">
+							<div className="col-md-12">
 								<label for="lname">ContactNo.</label>
 								<input 
 								type="text" 
@@ -210,9 +206,9 @@ const ContactUs = () => {
 								value={formValue.user_contactno} 
                                 onChange={changeHandler}/>
 							</div>
-                            <p>{formError.user_contactno}</p>
+                               <p className="error">{formError.user_contactno}</p>
 
-							<div className="col-md-6">
+							<div className="col-md-12">
 								 <label for="lname">Address</label> 
 								<input 
 								type="text" 
@@ -223,7 +219,7 @@ const ContactUs = () => {
 								value={formValue.user_address} 
                                 onChange={changeHandler}/>
 								</div>
-								<p>{formError.user_address}</p>
+								  <p className="error">{formError.user_address}</p>
 						</div>
 						<div className="form-group">
 							<button 
