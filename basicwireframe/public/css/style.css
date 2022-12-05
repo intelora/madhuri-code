@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.frame-0?srf3rx#icomoon") format("frame-0");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,10 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+}
+
+.activeColor{
+  color: #ff7b06;
 }
 
 #page {
@@ -106,6 +110,8 @@ h2{
   padding: 15px 15px;
   color: #ffffff00;
 }
+
+
 .fh5co-nav .top {
  
   padding: 7px 0;
@@ -163,20 +169,21 @@ h2{
 .fh5co-nav ul {
   padding: 18px;
   margin: 15px 0 0 0;
+
 }
 .fh5co-nav ul li {
+  padding:0;
   margin: 0;
   list-style: none;
   display: inline;
 }
-.fh5co-nav .top-menu ul li {
+.fh5co-nav .top-menu ul li  {
   color: #042300;
   font-weight: bold;
+  padding: 15px;
 }
-.menuBar {
-  padding: 0em 1.5em;
-}
-.fh5co-nav ul li  {
+
+.fh5co-nav ul li a {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -184,10 +191,6 @@ h2{
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.activeColor{
-  color: #ff7b06 !important;
-}
-
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: #000000;
   !important;
@@ -1871,3 +1874,230 @@ h2{
 	max-width:100%;
 	width: 100%;
 }
+ 
+.frame-01 {
+  animation: frame-01 2s ease 2;
+}
+
+@keyframes frame-01 {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+} 
+
+
+.frame-02 {
+  
+  -webkit-animation: frame-02 4s linear forwards 2;
+  animation: frame-02 2s linear forwards 2;
+}
+
+@-webkit-keyframes frame-02 {
+0%,100% { opacity: 0; }
+50% { opacity: 1; }
+}
+
+@keyframes frame-02 {
+0%,100% { opacity: 0; }
+50% { opacity: 1; }
+}
+
+
+.frame-03 {
+  animation: 5s frame-03 2;
+}
+@keyframes frame-03 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+.frame-04{
+  animation: 4s transitionCSSSolution 2;
+}
+@keyframes frame-04 {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+.frame-05 polygon {
+  animation: 4s frame-05 20;
+  stroke-width: 5px;
+  stroke: green;
+}
+@keyframes frame-05  {
+  from {
+    opacity: 0.5;
+    stroke-width: 1px;
+    stroke: green;
+    }
+  to {
+    opacity: 1;
+    stroke-width: 15px;
+    stroke: green;
+    }
+}
+
+.frame-06{
+  
+  animation-name: frame-06;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+ }
+
+@keyframes frame-06 {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+.frame-07 {
+  animation: 4s frame-07 2;
+}
+@keyframes frame-07 {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+
+
+.transitionCSSProduct {
+  
+  -webkit-animation: transitionCSSProduct 4s linear forwards 2;
+  animation: transitionCSSProduct 2s linear forwards 2;
+}
+
+@-webkit-keyframes transitionCSSProduct {
+0%,100% { opacity: 0; }
+50% { opacity: 1; }
+}
+
+@keyframes transitionCSSProduct {
+0%,100% { opacity: 0; }
+50% { opacity: 1; }
+}
+
+.transitionCSSServices {
+  animation: 4s transitionCSSServices 2;
+}
+@keyframes transitionCSSServices {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+.transitionCSSSolution{
+  animation: 4s transitionCSSSolution 2;
+}
+@keyframes transitionCSSSolution {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+
+.transitionCSSTechnologies {
+  animation: 4s transitionCSSTechnologies 2;
+}
+@keyframes transitionCSSTechnologies {
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: 100%;
+  }
+}
+
+.transitionCSSHome {
+  animation: 4s transitionCSSHome 2;
+}
+@keyframes transitionCSSHome {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+/* .transitionCSSSolution{
+           
+  overflow-y: hidden;
+  -webkit-transition: max-height 0.5s transitionCSSSolution;
+  -moz-transition: max-height 0.5s transitionCSSSolution;
+  -o-transition: max-height 0.5s transitionCSSSolution;
+  transition: max-height 0.5s transitionCSSSolution;
+} */
+
+
+   
+/* .transitionCSSSolution {
+ 
+
+  -webkit-animation: transitionCSSSolution 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: transitionCSSSolution 0.5s forwards;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes transitionCSSSolution {
+  100% { left: 0; }
+}
+
+@keyframes transitionCSSSolution {
+  100% { left: 0; }
+} */
+
+/* .transitionCSSSolution{
+  
+  animation-name: transitionCSSSolution;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+ }
+
+/* @keyframes transitionCSSSolution {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}  */ */

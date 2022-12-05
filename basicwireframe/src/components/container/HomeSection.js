@@ -1,38 +1,37 @@
-import React from "react";
+import React,{useEffect} from "react";
 import home from "../../components/jsondata/sectionsjson/home.json";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 const Section = () => {
-   
+	// useEffect(() => {
+    //     AOS.init();
+    //   }, [])
+   let iCnt = 0;
     return (
         <div>
           
   <div id="fh5co-services" className="fh5co-bg-section">
 		<div className="container">	
-
-			<div className="row row-eq-height">
-			{
-							home.map(homeData=>{
-				  
-						  return(
-					<div className="col-md-4 text-center animate-box">
+			{ 
+				home.map(homeData=>{
+				return(<div>
 					
-				
+					<div className="col-md-4 text-center animate-box">
 					  <div className="services">
-						  <span style={{fontSize:"4em"}}></span>
-									<div key={homeData.index}>
-									<h3>{homeData.title}</h3>
-									<p>{homeData.content}</p>
-									<p><a href="./services.html" className="btn btn-primary btn-outline btn-sm">{homeData.button} <i className="icon-fast-forward"></i></a></p>
-								</div>
-				             </div>
+						  	<span style={{fontSize:"4em"}}></span>
+							<div key={homeData.id} >
+								<h3>{homeData.title}</h3> 
+								<div dangerouslySetInnerHTML={{__html: homeData.content}}  />
+								<p><a href="./services.html" className="btn btn-primary btn-outline btn-sm">{homeData.button} <i className="icon-fast-forward"></i></a></p>
+							</div>
 						</div>
-						
-						
-								)
+					</div>
+					
+								</div>)
 							 })
 							
 						  }
-					</div>
 			     </div>
 		    </div>
 			
