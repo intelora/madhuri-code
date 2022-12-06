@@ -57,7 +57,7 @@
       "image":"./images/gallery-9.jpg"
     },
     {
-      "topicid":"abc",
+      "topicid":"paymentgateway",
       "id":10,
       "title":"Payment Gateway",
       "image":"./images/gallery-11.jpg"
@@ -87,7 +87,7 @@
       "image":"./images/gallery-15.jpg"
     },
     {
-      "topicid":"abc",
+      "topicid":"ecommerce",
       "id":15,
       "title":"E-Commerce Solution",
       "image":"./images/gallery-16.jpg"

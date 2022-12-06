@@ -1,0 +1,36 @@
+{"page":"paymentgateway",
+        "title": "Payment Gateway Integration",
+        "bannerimage": "./images/slider-paymentgateway.jpg",
+        "contentData":[
+            {
+                "tag":"0",
+                "subheading":"Merchant account Handling",
+                "content":"IntelOra Provides solution for ecommerce Merchant account handling enabled payment gateway integration services which acquiring the entire gamut of merchant related activities in an integrated way.IntelORa Online Payment Gateway Integration providing the Acquirers so we can get enrol merchants, query transaction history, manage fees, track terminal inventory, assess risks and generate settlements. One of the most important benefits a merchant account can bring is the ability to accept credit and debit cards. Our Gateway card processing system also handles reports, merchant statements, chargebacks and other payment logistics. Merchant account solution provides specializing in online payment systems for both physical and online stores. This gateway also work as End-to-end merchant acquiring and service management- from enrollment to settlement, and few features such as Supports multi-currency, exchange rates, and flexible currency conversion, Merchant performance metrics, Terminal Clerk management, Accounting and reconciliation functions.."
+            },
+            {
+                "tag":"0",
+                "subheading":"POS Integration",
+                "content":"IntelOra Expertize into Point of Sale (POS) terminal integration & increasingly within the enterprise. IntelOra has Best Payment Gateway Integration in Mobile Apps and for POS systems to handle their payment via POS & web-based Card OR CardLess application for Our merchant solution for their retailers, restaurants and other similar organizations to print their title, logo and in-store sales and purchases details. Our gateway solution work on PCI compliance secure module transaction concept, when user entering credentials on a pinpad. It is a quickly and easily accessible solution for any merchant or organization. IntelOra Gateway enables you to view daily account information whenever your need it, view transaction details, reports and settlements for quick and easy reconciliation. We customize and provides the transaction information you need to manage your business today and the historical analysis that could help to improve your business for tomorrow. IntelOra Gateway is a cloud-based POS solution act as norm rather than the exception. Below, are some additional features for our retail business POS system:/n<ul><li>01) Merchant Database and Clerk POS Counting</li><li>02) Low-Balance Notifications and Auto-pay Suggestions</li><li>03) Detailed Payment Reports</li><li>04) Coupon Promotions and Sales</li><li>05) Fund Transfers Between Accounts</li><li>06) POS Clerk Reporting</li><li>07) User Accounts and Merchant Account</li><li>08) Customer Transaction History</li><li>09) Returns, Store Credit, and Refunds</li><li>10) Split or Multiple Payments</li><li>11) Sleek or Mobile Registers</li></ul>"
+            },
+            {
+                "tag":"0",
+                "subheading":"Slip Payment",
+                "content":"IntelOra Expertise with most of international POS vendor customization for the slips is to allow the cashier or recipient of the deposit/payment to validate the information of the deposit/payment being made. With tally data like Your name and account number must match that of the system, and the amount of cash tendered must agree with that of the slip. We understand the importance of payment slip. In past our client was facing issue to manage Finances Often entrepreneurs & struggle in keeping a track of how much money is entering and leaving their businesses. The payslips can help here better to keep a track significant track of cash flow with IntelOra Slip integration customize solution. IntelOra team introduced one of most complex Tracking scanning system for slip payment to get automated refund for previous POS machine. Where customer come back to same POS machine and applied for refund."
+            },
+            {
+                "tag":"0",
+                "subheading":"Wireless Network Gateway",
+                "content":"The IntelOra Payment Gateway Integration in Websites introduces the Most modern networks solution for Ethernet and Wi-Fi connected, POS machines. They can get connect with any hub with clerk ID and start card transaction. In the network interface POS machines hardware integration layers worked on AI principle to use services. It is able to handle multiple Clerk, Multiple POS and Multiple Invoices depending on the size of infrastructure. The cardless transaction worked from System where POS integration with network is an automated IOT solution. This POS Machine internally connect with payment gateway which worked on ISO standard XML / JSON based communication to connect with card network and process card transaction for merchant accounts."
+            },
+            {
+                "tag":"0",
+                "subheading":"Supported Transactions",
+                "content":"IntelOra Gateway able to process below mention Transactions::<ul><li>ACH transactions</li><li>VOID</li><li>AUTH</li><li>SALE</li><li>REVERSAL/REFUND</li><li>CAPTURE</li><li>PinLess</li><li>TAP</li><li>ACH</li><li>Recurring</li></ul><p>Card Types: (Credit Card, CardLess, Smart Card, Food Card, Gift Card, Debit/ATM Card, Fleet Card, Magnetic Card, Cheap Card, Tap Card)</p>"
+            },
+            {
+                "tag":"0",
+                "subheading":"Translation reports",
+                "content":"IntelOra Gateway able to provide all the customize reports along with search and paginations:<ul><li>01. ACH transactions</li><li>02. Settled transactions</li><li>03. UnSettled transactions</li><li>04. Reversal Transactions</li><li>05. Merchant wise Report</li><li>06. POS Terminal wise Report</li><li>07. Clerk wise Report</li><li>08. Fees Transactions</li><li>09. Split payment fee/charges detail etc.</li></ul>"
+            }
+           
+        ]}

@@ -8,12 +8,13 @@ import gamingdevelopment from "../../components/jsondata/modalsjson/gamingdevelo
 import microservice from "../../components/jsondata/modalsjson/microservice.json";
 import devopssolution from "../../components/jsondata/modalsjson/devopssolution.json";
 import iotsolution from "../../components/jsondata/modalsjson/iotsolution.json";
-import sapsolution from "../../components/jsondata/modalsjson/sapsolution.json";
+import ecommerce from "../../components/jsondata/modalsjson/ecommerce.json";
 import mobileappdevelop from "../../components/jsondata/modalsjson/mobileappdevelop.json";
 import portaldevelop from "../../components/jsondata/modalsjson/portaldevelop.json";
 import webdesign from "../../components/jsondata/modalsjson/webdesign.json";
 import roboticsdev from "../../components/jsondata/modalsjson/roboticsdev.json";
 import productenhancement from "../../components/jsondata/modalsjson/productenhancement.json";
+import paymentgateway from "../../components/jsondata/modalsjson/paymentgateway.json";
 
 const TopicInformation = (props) => {
   const [sourceData, setSourceData] = useState(null);
@@ -41,8 +42,8 @@ const TopicInformation = (props) => {
       setSourceData(microservice);
     } else if (props.selectedtopicid === "devopssolution") {
       setSourceData(devopssolution);
-    } else if (props.selectedtopicid === "sapsolution") {
-      setSourceData(sapsolution);
+    } else if (props.selectedtopicid === "ecommerce") {
+      setSourceData(ecommerce);
     } else if (props.selectedtopicid === "mobileappdevelop") {
       setSourceData(mobileappdevelop);
     } else if (props.selectedtopicid === "portaldevelop") {
@@ -51,6 +52,8 @@ const TopicInformation = (props) => {
       setSourceData(productenhancement);
     } else if (props.selectedtopicid === "webdesign") {
       setSourceData(webdesign);
+     } else if (props.selectedtopicid === "paymentgateway") {
+        setSourceData(paymentgateway);
     } else {
       setSourceData(appdevelop);
     }
@@ -69,10 +72,11 @@ const TopicInformation = (props) => {
             {sourceData &&
               sourceData.contentData.map((sourceDatas) => {
                 return (
-                  <div>
+                  <div  key={sourceDatas.id} >
+                   
                     <h3>{sourceDatas.subheading}</h3>
                     <div className="modeltext">
-                      <p>{sourceDatas.content}</p>
+                    <div dangerouslySetInnerHTML={{__html: sourceDatas.content}}/>
                       <a
                         href="./contact.html#fh5co-contact"
                         className="btn btn-primary popup"

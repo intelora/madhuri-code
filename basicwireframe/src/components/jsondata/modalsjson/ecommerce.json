@@ -1,0 +1,21 @@
+{"page":"Ecommerce Solution",
+"title": "Ecommerce Solution Providers",
+"bannerimage": "./images/slider-img4.jpg",
+"contentData":[
+    {
+        "tag":"0",
+        "subheading":"ECommerce",
+        "content":"IntelOra design Ecommerce Solution Providers to customizations on pivoted around a user segmentation based on relevant attributes of the entire end user population. Integrated with payment gateaway solution as well for End to End payment module. The portal solution also aims at engaging with the end user at a deeper level through functionalities like recommending further experiences / engagements based on better understanding of the end user, their peer behavior and the context of interaction. The system presents these experiences to the end user with its context knowledge gleaned / extracted from the trends of similar users in addition to the transaction history of the user and context of current interaction. An analytical model would make use of these attributes of the entire user base population and segment into different groups."
+    },
+    {
+        "tag":"0",
+        "subheading":"Top Ecommerce Service Providers & Ecommerce Features",
+        "content":"<p>Below are the main attribute groups that are considered for this segmentation are:</p><p>i) User Classification: It represents an extended profile that will be maintained in the system that gets modified rarely and is mostly administered by the organization to which the user belongs?</p><p>ii) Device Classification: Would consider the data regarding the devices owned by the user from the CMDB and the Best Ecommerce Platform transactions that happen on the portal?</p><p>iii) Event Classification: This is an attempt to extract the interest of the end user from the pattern of interaction with the system that has not culminated in a concrete transaction?</p><p>Our Unique Ecommerce solutions:</p><ul><li>Order Tracking</li><li>Smart Suggestion</li><li>Shipping Hub Terminal & Consignment ReducerThird party integration</li><li>Multi Language Description</li><li>Multi Vendor Management</li><li>Multi Store Management</li><li>Smart Stoke Adviser</li><li>Lightning Fast Internet Content</li><li>Effectiveness Offer Tracking</li></ul>"
+    },
+    {
+        "tag":"0",
+        "subheading":"Robotics based Smart cart implementation",
+        "content":"Our Robotics based Ecomm system integration provide cart solution for real time shopping. Smart has scanner over the each cart. The movement user select any product, he/she can scan and able to get offer/discount or price detail along with billing. It also maintains the COVID social distance, where user need not to touch any product and dhe can get the full defial by just scanner. At the movement when user exit form store, his smart cart auto send billing detail to cash counter to print receipt. Robotics based smart cart reduce long queue our sales counter/billing counter and less human interaction during COVID-19 distance."
+    }
+    
+]}

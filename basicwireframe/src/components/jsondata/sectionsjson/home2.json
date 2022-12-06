@@ -1,0 +1,87 @@
+{
+    "title":"Our Team Clients Experience",
+    "para":"Banking, Finance, Credit & Risk, E-Commerce, Telecom",
+    "contentData": [
+      {
+    
+        "id":1,
+        "image":"./images/client-001.png"
+      },
+      {
+        
+        "id":2,
+        "image":"./images/client-002.png"
+      },
+      {
+        
+        "id":3,
+       "image":"./images/client-003.png"
+      },
+      {
+       
+        "id":4,
+        "image":"./images/client-004.png"
+      },
+      {
+       
+        "id":5,
+        "image":"./images/client-005.png"
+      },
+      {
+        
+        "id":6,
+        "image":"./images/client-006.png"
+      },
+      {
+        
+        "id":7,
+        "image":"./images/client-007.png"
+      },
+      {
+        
+        "id":8,
+        "image":"./images/client-008.png"
+      },
+      {
+        
+        "id":9,
+        "image":"./images/client-009.png"
+      },
+      {
+       
+        "id":10,
+        "image":"./images/client-010.png"
+      },
+      {
+        
+        "id":11,
+        "image":"./images/client-011.png"
+      },
+      {
+        "id":12,
+        "image":"./images/client-012.png"
+      },
+      {
+       
+        "id":13,
+        "image":"./images/client-013.png"
+      },
+      {
+       
+        "id":14,
+        "image":"./images/client-014.png"
+      },
+      {
+        
+        "id":15,
+        "image":"./images/client-015.png"
+      },
+      {
+       
+        "id":16,
+        "image":"./images/client-016.png"
+      }
+     
+    ]
+  }
+  
