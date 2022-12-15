@@ -1876,113 +1876,120 @@ h2{
 }
  
 .frame-01 {
-  animation: frame-01 2s ease 2;
+  position: absolute;
 }
-
-@keyframes frame-01 {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.5, 1.5);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-} 
 
 
 .frame-02 {
-  
-  -webkit-animation: frame-02 4s linear forwards 2;
-  animation: frame-02 2s linear forwards 2;
-}
-
-@-webkit-keyframes frame-02 {
-0%,100% { opacity: 0; }
-50% { opacity: 1; }
-}
-
-@keyframes frame-02 {
-0%,100% { opacity: 0; }
-50% { opacity: 1; }
+  position: absolute;
 }
 
 
 .frame-03 {
   animation: 5s frame-03 2;
+  position: absolute;
 }
 @keyframes frame-03 {
   from {
     margin-left: 100%;
   }
   to {
-    margin-left: 0%;
+    margin-left: 10%;
   }
 }
 
 
 .frame-04{
-  animation: 4s transitionCSSSolution 2;
+  animation: 4s frame-04 1;
+  position: absolute;
 }
 @keyframes frame-04 {
   from {
-    margin-left: 0%;
-  }
-  to {
     margin-left: 100%;
   }
+  to {
+    margin-left: 10%;
+  }
 }
 
-.frame-05 polygon {
-  animation: 4s frame-05 20;
-  stroke-width: 5px;
-  stroke: green;
+.frame-05 {
+  animation: 5s frame-05 2;
+  position: absolute;
 }
-@keyframes frame-05  {
+@keyframes frame-05 {
   from {
-    opacity: 0.5;
-    stroke-width: 1px;
-    stroke: green;
-    }
+    margin-left: 100%;
+  }
   to {
-    opacity: 1;
-    stroke-width: 15px;
-    stroke: green;
-    }
+    margin-left: 10%;
+  }
 }
+
 
 .frame-06{
-  
-  animation-name: frame-06;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-  /* transform: rotate(3deg); */
-   /* transform: rotate(0.3rad);/ */
-   /* transform: rotate(3grad); */ 
-   /* transform: rotate(.03turn);  */
- }
-
+  animation: 4s frame-04 1;
+  position: absolute;
+}
 @keyframes frame-06 {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 10%;
+  }
 }
 
 
 .frame-07 {
-  animation: 4s frame-07 2;
+  animation: 5s frame-07 2;
+  position: absolute;
 }
 @keyframes frame-07 {
   from {
-    margin-top: 100%;
+    margin-left: 100%;
   }
   to {
-    margin-top: 0%;
+    margin-left: 10%;
+  }
+}
+
+
+.frame-08{
+  animation: 4s frame-08 1;
+  position: absolute;
+}
+@keyframes frame-08 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 10%;
+  }
+}
+
+.frame-09 {
+  animation: 5s frame-09 2;
+  position: absolute;
+}
+@keyframes frame-09 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 10%;
+  }
+}
+
+.frame-10{
+  animation: 4s frame-10 1;
+  position: absolute;
+}
+@keyframes frame-10 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 10%;
   }
 }
 
