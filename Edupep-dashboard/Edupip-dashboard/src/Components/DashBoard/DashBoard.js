@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import ProgressBar from '../ProgressBar/ProgressBar';
 import Sidebar from '../Sidebar/Sidebar';
 import TableList from '../TableList/TableList';
-import './Home.scss';
+import './DashBoard.scss';
 
 function Home() {
     //

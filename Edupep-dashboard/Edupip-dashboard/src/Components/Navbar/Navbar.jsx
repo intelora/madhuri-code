@@ -7,14 +7,16 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import SearchIcon from '@mui/icons-material/Search';
 import React, { useContext,useState } from 'react';
 import { ColorContext } from '../../ColorContext/darkContext';
-import Profile from '../Profile';
-import { useNavigate,Link } from 'react-router-dom';
+
+
+import { useNavigate} from 'react-router-dom';
 
 // import sass file
 import './navbar.scss';
 
 // import images
 import admin from '../../Images/admin_pic.jpg';
+import { Button } from '@mui/material';
 
 function Navbar() {
     // color state management using react context
@@ -60,14 +62,11 @@ function Navbar() {
                     <span className="badge">2</span>
                 </div>
 
-                <div className="item">
-                    
-                    <Link to ="/userinfo"> Profile </Link>
-                </div>
+                
 
                 <div className="item">
                
-                   <button onClick={(e)=>navigate("/login")}>LogOut</button>
+                   <Button onClick={(e)=>navigate("/login")}>LogOut</Button>
                 </div>
             </div>
         </div>
