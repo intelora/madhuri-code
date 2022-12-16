@@ -1,5 +1,4 @@
 import React from "react";
-import MenuBar from "./MenuBar";
 
 const Header = () => {
    
@@ -8,7 +7,7 @@ const Header = () => {
            <nav className="fh5co-nav" role="navigation">
 		<div className="top">
 			<div className="container">
-				<div className="row" style ={{marginleft: "-110px"}}>
+				<div className="row" style ={{marginLeft: "-110px"}}>
 				<div className="col-xs-2">
 						<div id="fh5co-logo" className="logo"><a href="index.html"><img src="./images/LogoBanner.png" alt="3333"/></a></div>
 					</div>
@@ -26,7 +25,6 @@ const Header = () => {
 				</div>
 			</div>
 		</div>
-    <MenuBar/>
    </nav>
 </div>
     );

@@ -18,7 +18,7 @@
       "id": 3,
       "title" : "PHASE 3: DEPLOY",
       "button": "More",
-      "content":"Deployment Kit: Assisting the client with the best deployment and launch strategy, to maximize reach, take-up, impact and longevity. We deliver a proper deployment document to our client for their future reference and manage the application./nSource Code: Source code is the key material for any application for their future enhancement, modification or development. We deliver the source code with proper code training with its architecture./nUser Acceptance: User acceptance is a key process of application delivery. Testing generally involves running a suite of tests on the completed system. User acceptance testing is conducted to determine if the requirements of a specification or contract are met."
+      "content":"<p>Deployment Kit: Assisting the client with the best deployment and launch strategy, to maximize reach, take-up, impact and longevity. We deliver a proper deployment document to our client for their future reference and manage the application.</p><p>Source Code: Source code is the key material for any application for their future enhancement, modification or development. We deliver the source code with proper code training with its architecture.</p><p>User Acceptance: User acceptance is a key process of application delivery. Testing generally involves running a suite of tests on the completed system. User acceptance testing is conducted to determine if the requirements of a specification or contract are met.</p>"
      
     }
    

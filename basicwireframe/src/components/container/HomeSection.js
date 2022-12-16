@@ -1,13 +1,10 @@
-import React,{useEffect} from "react";
+import React from "react";
 import home from "../../components/jsondata/sectionsjson/home.json";
 import home2 from "../../components/jsondata/sectionsjson/home2.json";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+
 
 const Section = () => {
-	// useEffect(() => {
-    //     AOS.init();
-    //   }, [])
+	
    let iCnt = 0;
     return (
         <div>

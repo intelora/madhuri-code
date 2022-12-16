@@ -6,7 +6,7 @@ const Banner = (props) => {
     <div>
        {/* code for animated default banner, correct svg and corract timings */}
        <div>
-       <img src="./svg-files/svgpart-01.svg" id="frame-01" className="frame-01" alt="" />
+       {/* <img src="./svg-files/svgpart-01.svg" id="frame-01" className="frame-01" alt="" />
        <img src="./svg-files/svgpart-02.svg" id="frame-02" className="frame-02" alt="" />
        <img src="./svg-files/svgpart-03.svg" id="frame-03" className="frame-03" alt="" />
        <img src="./svg-files/svgpart-04.svg" id="frame-04" className="frame-04" alt="" />
@@ -15,7 +15,7 @@ const Banner = (props) => {
        <img src="./svg-files/svgpart-07.svg" id="frame-07" className="frame-07" alt="" />
        <img src="./svg-files/svgpart-08.svg" id="frame-08" className="frame-08" alt="" />
        <img src="./svg-files/svgpart-09.svg" id="frame-09" className="frame-09" alt="" />
-       <img src="./svg-files/svgpart-10.svg" id="frame-10" className="frame-10" alt="" />
+       <img src="./svg-files/svgpart-10.svg" id="frame-10" className="frame-10" alt="" /> */}
 
 
     </div> 

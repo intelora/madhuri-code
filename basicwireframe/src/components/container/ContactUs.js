@@ -21,12 +21,13 @@ const ContactUs = () => {
 	  e.preventDefault();
 	 setFormError(validationForm(formValue));
 	 setIsSubmit(true);
+	//  setFormValue("");
     }
 	 
 	const validationForm = (values)=>{
         const errors= {};
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-		
+	
         if(!values.user_name){
             errors.user_name="Please Enter Name";
         }
@@ -45,9 +46,10 @@ const ContactUs = () => {
 		
         if(!values.user_contactno){
             errors.user_contactno="Please Enter Contactno.";
-        }else if(contact.values.length!==10){
-            errors.user_contactno=" Please Enter Valid Contactno.";
-		}
+        }
+		// else if(values.user_contacno.length > 10){
+        //     errors.user_contactno=" Please Enter Valid Contactno.";
+		// }
  
         if(!values.user_email){
             errors.user_email="Please Enter Email";
@@ -84,8 +86,9 @@ const ContactUs = () => {
 			  }
 			);
          }
-		//  setFormValue("");
+		
     },[formError, formValue, isSubmit]);
+
    
     return (
 <div>
@@ -98,8 +101,8 @@ const ContactUs = () => {
 
           {contact.map(contact=>{
             return(
-              <div className="fh5co-contact-info">
-					
+              <div className="fh5co-contact-info"   key={contact.id}>
+                      
 						<h4>{contact.title}</h4>
 						<ul>
 							<li className="address">{contact.address}</li>
@@ -120,7 +123,7 @@ const ContactUs = () => {
 					<form action="#fh5co-contact" id="enqform"  ref={form} onSubmit={sendEmail}>
 						<div className="row form-group">
 							<div className="col-md-12">
-								<label for="fullname">Full Name</label>
+								<label htmlFor="fullname">Full Name</label>
 								<input 
 								type="text" 
 								id="enq_fname" 
@@ -135,7 +138,7 @@ const ContactUs = () => {
 
 						<div className="row form-group">
 							<div className="col-md-12">
-							<label for="companyname">Company Name</label>
+							<label htmlFor="companyname">Company Name</label>
 								<input 
 								type="text" 
 								id="enq_organization" 
@@ -150,7 +153,7 @@ const ContactUs = () => {
 
 						<div className="row form-group">
 							<div className="col-md-12">
-							<label for="email">Email</label>
+							<label htmlFor="email">Email</label>
 								<input
 								 type="text" 
 								id="enq_email" 
@@ -165,7 +168,7 @@ const ContactUs = () => {
 
 						<div className="row form-group">
 							<div className="col-md-12">
-				             <label for="subject">Subject</label>
+				             <label htmlFor="subject">Subject</label>
 								<input 
 								type="text" 
 								id="enq_subject" 
@@ -180,7 +183,7 @@ const ContactUs = () => {
 
 						<div className="row form-group">
 							<div className="col-md-12">
-							 <label for="message">Message</label>
+							 <label htmlFor="message">Message</label>
 								<textarea 
 								id="enq_message" 
 								cols="30" 
@@ -196,7 +199,7 @@ const ContactUs = () => {
 
 						<div className="row form-group">
 							<div className="col-md-12">
-								<label for="lname">ContactNo.</label>
+								<label htmlFor="lname">ContactNo.</label>
 								<input 
 								type="text" 
 								id="enq_contactNumber" 
@@ -209,7 +212,7 @@ const ContactUs = () => {
                                <p className="error">{formError.user_contactno}</p>
 
 							<div className="col-md-12">
-								 <label for="lname">Address</label> 
+								 <label htmlFor="lname">Address</label> 
 								<input 
 								type="text" 
 								id="enq_location" 

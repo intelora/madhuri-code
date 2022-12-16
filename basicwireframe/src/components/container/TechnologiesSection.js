@@ -13,9 +13,10 @@ const TechnologiesSection = () => {
 
 				{technologies.map(technologies=>{
 					return(
-						<div className="col-md-3 text-center animate-box">
+						<div className="col-md-3 text-center animate-box"  key={technologies.id}>
 						<div className="services">
 							<span style={{fontSize:"4em"}}><i className={technologies.icon} ></i></span>
+							
 							<h3>{technologies.title} </h3>
 							<p>{technologies.content}</p>
 						</div>
@@ -24,12 +25,13 @@ const TechnologiesSection = () => {
 				})
 			}
 				
-		<div class="row row-eq-height" style={{marginTop:"2em"}}>
+		<div className="row row-eq-height" style={{marginTop:"2em"}}>
                {technologies2.map(technologies2=>{
 					return(
-						<div class="col-md-6 animate-box text-center">
-						<div class="services">
-							<h3>{technologies2.title}</h3>
+						<div className="col-md-6 animate-box text-center" 	>
+						<div className="services" >
+					
+		                    <h3>{technologies2.title}</h3>
 							<p>{technologies2.content}</p>
 							<br/>
 							<p><img alt="IntelOra - IT Software Solution Company - Technologies"  src={technologies2.image} style={{width: "100%"}}/></p>

@@ -12,11 +12,12 @@ const SolutionSection = () => {
 
 			      { solution.map(solution=>{
 					return(
-					<div className="col-md-4 text-center animate-box">
+					<div className="col-md-4 text-center animate-box" key={solution.id}>
 					   <div className="services">
-						<span style={{fontSize:"4em"}}></span>
+						<span style={{fontSize:"4em"}} ></span>
+						
 						<h3>{solution.title}</h3>
-						<p>{solution.content}</p>
+						<div dangerouslySetInnerHTML={{__html: solution.content}}/>
 						<p><a href="./login.html" className="btn btn-primary btn-outline btn-sm">{solution.button} <i className="icon-arrow-right"></i><i className="icon-user"></i></a></p>
 					  </div>
 				 </div>
@@ -24,11 +25,12 @@ const SolutionSection = () => {
 				   })
 				   }
 
-     <div class="row row-eq-height">
+     <div className="row row-eq-height">
 		   {solution2.map(solution2 =>{
 			return(
-				<div class="col-md-6 animate-box text-center">
-				<div class="services" style={{marginTop:"2em"}}>
+				<div className="col-md-6 animate-box text-center" >
+				<div className="services" style={{marginTop:"2em"}}>
+				
 					<h3>{solution2.title}</h3>
 					<p><img alt="IntelOra - Software Development Solutions"  src={solution2.image} style={{width: "100%"}}/></p>
 					<p>{solution2.content}</p>

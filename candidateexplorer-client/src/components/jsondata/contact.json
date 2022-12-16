@@ -1,0 +1,20 @@
+[
+    {
+       "id": 1,
+      "title": "India Office",
+      "address": "98, Intelora Resources and Developments LLP /n Sai Priya Environ, Electronic city-1, /n Bengaluru, Karnataka. PinCode: 560100 ",
+      "email": "info@intelora.co.in",
+      "phoneno": "(0091)-930-604-9136"
+    },
+    {
+      
+        "id": 2,
+        "title": "USA Office",
+        "address": "Intelora Resources and Developments LLC /n 4293 N. Placita De Susana,/n Tucson. Arizona-85718 /n",
+        "email": "info@intelora.co.in",
+        "phoneno": "(0091)-930-604-9136"
+        
+       
+      }
+
+]

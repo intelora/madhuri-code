@@ -1877,6 +1877,8 @@ h2{
  
 .frame-01 {
   position: absolute;
+  width: 80%;
+  height:80%;
 }
 
 
@@ -1886,18 +1888,30 @@ h2{
 
 
 .frame-03 {
-  animation: 5s frame-03 2;
+  animation: 5s frame-03 1;
   position: absolute;
 }
 @keyframes frame-03 {
-  from {
+  0% {
     margin-left: 100%;
   }
-  to {
+  99% {
     margin-left: 10%;
+    
+  }
+  99%{
+    visibility: hidden;
+    display: none;
+    height:0;
+    width: 0;
   }
 }
-
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
 
 .frame-04{
   animation: 4s frame-04 1;
